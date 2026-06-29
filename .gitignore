@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2026 Sam Hanes
+# SPDX-License-Identifier: CC0-1.0
+
+# publication outputs
+dist/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# KiCAD backups and working files
+/boards/*/*-backups/
+/boards/*/fp-info-cache
+/boards/*/#auto_saved_files#
+/boards/*/_autosave-*
+/boards/**/*.bak
+/boards/**/*.kicad_prl
+/boards/**/~*.lck
+
