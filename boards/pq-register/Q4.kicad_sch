@@ -2693,7 +2693,6 @@
 		(uuid "1713cf24-0010-4527-9924-6ebf94c3c90e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 148.59 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2717,7 +2716,6 @@
 		(uuid "2468a179-216c-4a6b-b76e-4fc19a0ad801")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 172.72 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2741,7 +2739,6 @@
 		(uuid "2aee0fd6-6ae3-4344-b950-6b9ecb56be66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 193.04 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2765,7 +2762,6 @@
 		(uuid "2b6936fd-6889-4b1f-9bc6-f5052379d137")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.7377 182.88 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2789,7 +2785,6 @@
 		(uuid "383745ab-c437-4706-a2ff-aeb889076acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.8586 187.96 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2813,7 +2808,6 @@
 		(uuid "39984027-4ce6-4083-8d25-afac4e74da8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.6448 177.8 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2837,7 +2831,6 @@
 		(uuid "4dd29aa7-3526-4aa7-97dd-e4215fbf8d31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.5858 59.69 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2861,7 +2854,6 @@
 		(uuid "529ab128-2b9f-4890-9a6d-de6f9d976b80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.8262 133.35 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2885,7 +2877,6 @@
 		(uuid "5d331cff-b34b-41d3-bdef-428c099afcc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 42.7348 64.77 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2909,7 +2900,6 @@
 		(uuid "61206e7b-31c4-4f1e-9bae-cf2d470c57c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 143.51 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2933,7 +2923,6 @@
 		(uuid "69bb8ef8-8466-4154-a9dd-56eded04e5db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 167.64 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2957,7 +2946,6 @@
 		(uuid "706f7c0f-0b2b-4d8a-8f19-d6a8af6aa957")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.5052 43.18 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2981,7 +2969,6 @@
 		(uuid "78dd61d1-baee-4080-b72d-4677f3638cd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 99.06 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3005,7 +2992,6 @@
 		(uuid "841a6615-7639-4baa-98cb-0ad3d593d230")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.3068 110.49 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3029,7 +3015,6 @@
 		(uuid "8424f5d7-9f4c-4fcb-9477-40dcf020778f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.5052 25.4 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3038,6 @@
 		(uuid "b9c75a53-5abc-4eb7-a8ab-27b382cb46bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.2258 104.14 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3077,7 +3061,6 @@
 		(uuid "e7bab39a-f3d8-4f25-848d-e7ce7cd8fda5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.3748 138.43 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3088,7 +3071,7 @@
 			)
 		)
 	)
-	(global_label "CP"
+	(global_label "CP_{2}"
 		(shape input)
 		(at 179.07 69.85 270)
 		(fields_autoplaced yes)
@@ -3100,8 +3083,7 @@
 		)
 		(uuid "f7333b5a-99bb-4500-9a47-b662935920a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 75.3752 90)
-			(hide yes)
+			(at 179.07 76.3936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3125,7 +3107,6 @@
 		(uuid "f9000578-88bc-404e-8150-ebee05561594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.7377 128.27 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
