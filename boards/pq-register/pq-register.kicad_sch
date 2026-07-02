@@ -10459,7 +10459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 142.494 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10541,7 +10541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 142.494 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11764,7 +11764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 142.494 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12700,7 +12700,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 180.594 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13044,7 +13044,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 180.594 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)

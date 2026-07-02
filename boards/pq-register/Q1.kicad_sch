@@ -4666,7 +4666,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 48.514 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 139.954 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +4830,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 139.954 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5731,7 +5731,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 48.514 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7616,7 +7616,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 48.514 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7935,7 +7935,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 241.3 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7945,7 +7945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 241.554 63.246 90)
 			(hide yes)
 			(show_name no)
@@ -9024,7 +9024,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 110.744 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +9341,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 48.514 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10459,7 +10459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 48.514 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10621,7 +10621,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 162.814 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11926,7 +11926,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 93.726 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12462,7 +12462,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 176.784 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13757,7 +13757,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 193.04 60.198 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,7 +13767,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 193.294 63.246 90)
 			(hide yes)
 			(show_name no)
@@ -13994,7 +13994,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 201.93 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +14004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 202.184 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -14074,7 +14074,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 232.41 38.608 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14084,7 +14084,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 232.664 41.656 90)
 			(hide yes)
 			(show_name no)
@@ -14155,7 +14155,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 110.744 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)

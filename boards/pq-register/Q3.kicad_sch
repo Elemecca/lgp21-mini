@@ -3351,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 143.51 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +3361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.764 93.726 90)
 			(hide yes)
 			(show_name no)
@@ -3587,7 +3587,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 191.77 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.024 93.726 90)
 			(hide yes)
 			(show_name no)
@@ -4873,7 +4873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 183.134 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,7 +5852,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 134.874 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6834,7 +6834,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 182.88 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +6844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 183.134 72.136 90)
 			(hide yes)
 			(show_name no)
@@ -7342,7 +7342,7 @@
 				)
 			)
 		)
-		(property "Value" "2k4"
+		(property "Value" "2k4 ¼W"
 			(at 152.4 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.654 72.136 90)
 			(hide yes)
 			(show_name no)
@@ -7423,7 +7423,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 57.404 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +8782,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 95.504 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9131,7 +9131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k 500mW"
+		(property "Value" "2k ½W"
 			(at 57.404 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)

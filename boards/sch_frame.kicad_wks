@@ -157,7 +157,7 @@
 		(start 77.0022 2.0072)
 		(end 77.0022 14.0072)
 	)
-	(tbtext "Unless otherwise noted:\n  Resistors are 15k, ¼W, 5%%\n  PNP Transistors are TI N652"
+	(tbtext "Unless otherwise noted:\n  Resistors are 15k, 1/16W, 5%%\n  PNP Transistors are MMBT5401"
 		(name "")
 		(pos 34.069 19.032)
 	)
