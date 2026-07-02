@@ -3,13 +3,13 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "ac5b2524-abfc-44f5-8235-957accdf812c")
-	(paper "A")
+	(paper "USLetter")
 	(title_block
-		(title "LGP-21 P & Q Register Board")
-		(date "2026-06-15")
-		(rev "ESD 1060")
-		(company "© 1962 General Precision; redrawn by Sam Hanes")
-		(comment 1 "https://github.com/Elemecca/lgp21-docs")
+		(title "LGP-21 Mini - P&Q Register")
+		(date "2026-06-28")
+		(rev "A")
+		(company "© 2026 Sam Hanes, licensed CERN-OHL-W v2")
+		(comment 1 "https://github.com/Elemecca/lgp21-mini")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small_US"

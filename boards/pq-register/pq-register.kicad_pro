@@ -264,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "ESD 1060"
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -713,7 +713,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "${KIPRJMOD}/../sch_frame.kicad_wks",
+    "page_layout_descr_file": "${KIPRJMOD}/../sheet_sch.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
