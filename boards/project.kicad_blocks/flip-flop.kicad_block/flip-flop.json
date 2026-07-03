@@ -1,0 +1,5 @@
+{
+"description": "Does not include the 2k4 input resistors or the 300R output resistors as those are placed separately on the board.",
+"keywords": "",
+"fields": {}
+}
