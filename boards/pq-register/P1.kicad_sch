@@ -1414,12 +1414,6 @@
 		(uuid "3e30519f-2ccc-447a-8552-d832cea7ca7f")
 	)
 	(junction
-		(at 93.98 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "468ce3af-8424-4d9f-ab10-383b5156a3bc")
-	)
-	(junction
 		(at 43.18 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1442,12 +1436,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d087aaf-2343-4910-837a-978d11469cc9")
-	)
-	(junction
-		(at 97.79 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52db1d0d-0333-4131-9cbb-3e224cb85441")
 	)
 	(junction
 		(at 146.05 45.72)
@@ -1492,12 +1480,6 @@
 		(uuid "8280a532-551f-482f-90ab-3948916ae6fc")
 	)
 	(junction
-		(at 107.95 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "871c2ade-85fe-477b-88fc-ac66fa73044b")
-	)
-	(junction
 		(at 186.69 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1540,6 +1522,12 @@
 		(uuid "a020de72-da29-4ed0-b528-62d7574c3e6e")
 	)
 	(junction
+		(at 93.98 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a089644c-e586-4a54-be60-7d13c7d6bb87")
+	)
+	(junction
 		(at 43.18 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1550,6 +1538,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f645cc-6e00-4099-a5c3-34209fb2a613")
+	)
+	(junction
+		(at 107.95 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3ef6f3f-3de6-44a5-85f0-f6fe501df050")
 	)
 	(junction
 		(at 57.15 33.02)
@@ -1586,6 +1580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c93e9182-b12f-4370-9284-3e4f2e99651c")
+	)
+	(junction
+		(at 97.79 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb64a718-0dc1-475d-8ed2-9f6070f07975")
 	)
 	(junction
 		(at 46.99 113.03)
@@ -1727,7 +1727,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 93.98 71.12)
+			(xy 93.98 71.12) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1807,16 +1807,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 67.31) (xy 138.43 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d4d867-a141-4efc-8799-70045827c35e")
-	)
-	(wire
-		(pts
 			(xy 85.09 81.28) (xy 72.39 81.28)
 		)
 		(stroke
@@ -1854,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "1c6f6e29-8705-4a1c-9c38-46f3a1bf6a29")
+	)
+	(wire
+		(pts
+			(xy 93.98 73.66) (xy 97.79 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3e7db1-ce9d-46c1-b2a6-dcff1afc4934")
 	)
 	(wire
 		(pts
@@ -1914,16 +1914,6 @@
 			(type default)
 		)
 		(uuid "23d6f424-43e9-46de-abb2-cd33d981b2c7")
-	)
-	(wire
-		(pts
-			(xy 93.98 76.2) (xy 93.98 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "250bc7b0-5729-4808-af18-b61651a2fb9b")
 	)
 	(wire
 		(pts
@@ -2394,16 +2384,6 @@
 			(type default)
 		)
 		(uuid "62c122c4-b618-4879-a2c0-93470c237be5")
-	)
-	(wire
-		(pts
-			(xy 93.98 73.66) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f9ba41-b060-4bf2-8b2c-902e61ca8009")
 	)
 	(wire
 		(pts
@@ -3067,6 +3047,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7a8847e-d4d5-44f2-9f5d-238dfc2cf314")
+	)
+	(wire
+		(pts
 			(xy 124.46 132.08) (xy 107.95 132.08)
 		)
 		(stroke
@@ -3257,6 +3247,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 67.31) (xy 107.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbae5db9-f026-43b8-bc7d-d5f34f60c950")
+	)
+	(wire
+		(pts
 			(xy 156.21 50.8) (xy 151.13 50.8)
 		)
 		(stroke
@@ -3437,6 +3437,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 73.66) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ce7f29-fcaf-4a45-986c-1f92efbd7594")
+	)
+	(wire
+		(pts
 			(xy 156.21 45.72) (xy 156.21 40.64)
 		)
 		(stroke
@@ -3524,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "f7c79cf3-d789-40f0-8541-2939a9c52c13")
-	)
-	(wire
-		(pts
-			(xy 107.95 67.31) (xy 107.95 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8685353-be7d-42c7-ac4c-5e285dacaf2c")
 	)
 	(wire
 		(pts
@@ -14607,6 +14607,83 @@
 			)
 		)
 	)
+	(group ""
+		(uuid "259bb6a8-f248-4109-a038-5443d1444358")
+		(lib_id "Project:nor")
+		(members "15d1e92a-9307-489c-b224-8febf5526a6d" "3d863be6-5a2d-423e-9c6b-c8dd9672676c"
+			"3f3d2bf0-6ff4-46ea-abe2-90b4eb2045bc" "582f065c-1366-4d0c-80f4-80b54f425d49"
+			"61f9cd9c-0793-4bf1-b5de-24e2f1c3a299" "6cdc51d3-9d54-4127-a39d-e3e91c5fcea2"
+			"7a4bfc1d-0b64-4a10-8977-8089d53492d2" "7f52be4d-5423-4a3e-aedc-f5deaf146823"
+			"84cb6485-f2e4-4c92-ae8a-4d63100e8d59" "c05c9ea7-cdf9-47a2-8d05-6d2bf5192cd3"
+			"c93e9182-b12f-4370-9284-3e4f2e99651c" "cdc6ffca-d8c6-4788-a1f4-b7a9efc43418"
+		)
+	)
+	(group ""
+		(uuid "37ffee12-b4fa-4328-ae41-29ea52f5bcf1")
+		(lib_id "Project:nor")
+		(members "0c4e99e4-c02e-4d11-b6ad-359ef96b5932" "14ae84b8-d273-4e17-9d1a-d8c90a7cdc51"
+			"1edf24f4-42ab-46e8-a9b0-be83cde34206" "3dcae6c0-5e81-4003-a53e-ef0e6eebd2bf"
+			"437bb425-99f2-42e3-81de-c6d10addf029" "44bce761-5102-46a9-b1b0-53127eaff75d"
+			"4d087aaf-2343-4910-837a-978d11469cc9" "750078d8-a668-469c-ad0f-154ed12dc154"
+			"85917dc6-2794-4cb1-86fa-08ae7269c632" "ba437c3c-0c39-4458-bdc8-ed179dabfbd2"
+			"f7c79cf3-d789-40f0-8541-2939a9c52c13" "ff875bf7-985c-4c21-b9b9-0d0244da91e4"
+		)
+	)
+	(group ""
+		(uuid "46f646df-bf73-40c4-b4f8-1de3b941f791")
+		(lib_id "Project:nor")
+		(members "0573babd-103d-43ac-a40d-4defbb322a15" "20a8ddfa-702b-4b3e-a633-cced763472d4"
+			"35c2b558-d6d2-4915-a50a-5a22b15114b0" "37f75f73-5d13-49c8-a71a-07eb3e89a4be"
+			"4edfa9ce-72a6-4fb2-ab04-c68908f5dd1c" "6474b555-d3f7-4c42-84d7-01dde7b98bf7"
+			"688dd0a3-a799-4a9c-98b5-6384c9d97f99" "7b11ee23-7dd5-463f-9952-5c0e1e8fb807"
+			"7f3c8a6e-7da0-41b8-bd91-b0ed817ebb69" "99b27a94-6e2f-4ea9-8e40-f2f07abce164"
+			"a9662e1d-1a54-44d4-bc70-135ca77c364b" "de769321-5b4d-4376-92fc-fd923153d8b7"
+		)
+	)
+	(group ""
+		(uuid "5bf2d974-e3be-49fc-90e2-350f05846dc9")
+		(lib_id "Project:nor")
+		(members "0464bd0f-d9ee-4248-9e86-cbc88870bf2b" "6aebb227-0276-495f-b43c-43a22d58b6f0"
+			"6c53bcbf-9156-4f4f-a6c2-e26c66a452ae" "71832864-15c1-49b0-b2a9-9e638ed150b9"
+			"780ca8e5-3e54-43ea-8f0b-d9543276ec14" "92118a82-6113-44f6-a7a1-bc91c8befbcb"
+			"98954be2-1df8-4c65-b849-39052f652bf8" "a0e63f0c-4dbe-4817-b800-492bbf5bef85"
+			"ae41e3de-1a0e-42b3-ac22-c2e55efcd115" "b2ca02b8-9936-44ce-b255-ed613a6cba0e"
+			"e4b5cbb3-8fc6-4725-9605-7bbef656c54d" "fdf14554-425c-4c26-8c90-a6c7fb9a5c36"
+		)
+	)
+	(group ""
+		(uuid "601de0ec-8e3c-4fc6-9ed5-cbdca1f03259")
+		(lib_id "Project:nor")
+		(members "0716cf44-a0ac-4128-8746-ad0f2c4f92b3" "07674cf7-4965-4824-ade4-5f3448ca99a5"
+			"25e79b23-1ca9-42e5-b425-a174fd776098" "26b3d3dd-dd33-453e-8f23-9795adf5bb7a"
+			"332fc7fb-47cc-4f87-be2f-67ac4d4e5456" "35566d57-e95d-416d-b430-c19937c9d83e"
+			"54a265b0-1aed-4359-b596-fcf7f4e0ed23" "68086915-e9cf-4072-8ddd-ee60afd15a3b"
+			"7ab04110-c86a-4b06-95f8-6a1e97b9684a" "bb8b3921-4719-4ad7-8ebd-ca682c08a45b"
+			"dd5c9f63-d8eb-49ab-82a8-af8bfe235fa4" "e2f10c6d-1f44-4a88-b3de-b0a29fa84df9"
+		)
+	)
+	(group ""
+		(uuid "8809ebbc-63ff-425d-8ffc-e8c795ccad20")
+		(lib_id "Project:nor")
+		(members "14127182-2c97-445a-b2a3-ab3ce3c2b0cd" "21fd48fa-76ee-49da-bd13-41ee676bb481"
+			"2923e32e-8896-44dd-b8a0-e800007c5e64" "89ac0ad1-777a-4ce1-9a68-79d2dab73cb7"
+			"91245ee5-c954-498a-b037-4cedf3bb3403" "b8569c15-78c7-4ec6-8c30-7ffe5f455318"
+			"bfb1386e-bc1c-426c-850d-74167bc0fbd9" "c51caffa-ebd2-471e-b9a2-cba6aa906bb7"
+			"da32e956-886d-42d7-9eee-495f245bd6e4" "dfa64550-2025-4544-814a-8940940b694f"
+			"e05e776f-93c4-44ba-9cd3-90fe3cc55d70" "f7fabca7-a238-4c3d-a07b-ef4e9b57114f"
+		)
+	)
+	(group ""
+		(uuid "8e118744-a6b4-46ec-8ddd-8355e0b0723a")
+		(lib_id "Project:nor")
+		(members "25af7306-86c9-44c0-b7e6-b8fb71233577" "39d9f68e-d9f7-4e33-a8f4-1bb4147c02b1"
+			"3a2158ab-77a0-4375-8128-c2e8166be521" "3eba57c3-d0c2-465b-b9e2-e5c0832a005a"
+			"4d0e39d8-18c1-44d3-bc3b-c46d8a66dedd" "6c95db42-5f98-4468-8188-cece849e67e7"
+			"813dfd8a-b28d-4e48-a499-5b6caff9ba6f" "b3ef6f3f-3de6-44a5-85f0-f6fe501df050"
+			"cadd13ce-643e-42d5-8f02-e26ea44917f3" "cb64a718-0dc1-475d-8ed2-9f6070f07975"
+			"cbae5db9-f026-43b8-bc7d-d5f34f60c950" "e5954ea0-6aeb-4174-84bb-ac49765f0aa5"
+		)
+	)
 	(group "flip-flop"
 		(uuid "c317de40-40f2-4993-9d73-f8878c57b0ca")
 		(lib_id "Project:flip-flop")
@@ -14646,6 +14723,28 @@
 			"eada7db9-9099-462b-9f32-0b82c74d415d" "ed58a6aa-8dea-4eb3-a7fc-1d8825558b12"
 			"efa10e93-2718-4d1a-a6ee-35fc17d6c35e" "f255f34a-33cd-421e-bd77-56921f6bb0f3"
 			"f4b42b1a-f78a-45cf-b74c-9a2605f7d3ac" "fa6df108-7253-4f05-96f6-2a79bf6aec11"
+		)
+	)
+	(group ""
+		(uuid "cfc16362-94f6-45a5-a255-e9c29782d19d")
+		(lib_id "Project:nor")
+		(members "0befdcdf-bbdf-4c50-996f-45fe8fc9f71d" "2f758109-9075-483a-9bfb-eef4626e6ee0"
+			"3312b552-4d29-455f-825d-e017aa20f4d8" "33ddebc5-9a00-4fb2-b481-93adeba4e386"
+			"4da6bf80-daa3-443c-b5b7-5fd15d5b1610" "53dd5e6d-a456-4ce8-abd3-accc07485bf6"
+			"60f3949a-dcc9-4e41-87ae-2da23800caea" "6bf8a559-2195-4edd-8297-b2a8235d33ca"
+			"805a5b7b-1693-4f36-8538-da4d7be7ac29" "8acc39ce-51d5-4ec4-9200-e12650d28697"
+			"c6a55d5f-25e5-47ec-8acf-dc17da2772d5" "ccd9496e-f5c9-4438-bb08-28d3da8d902f"
+		)
+	)
+	(group ""
+		(uuid "f399a3e9-0e04-44dc-9b7c-df60a3f002ab")
+		(lib_id "Project:nor")
+		(members "03de7d1b-c422-47b6-b8cc-7fd4de0f93ba" "1dfee1cc-29c0-41bb-97d9-b8e5a9c494eb"
+			"3e30519f-2ccc-447a-8552-d832cea7ca7f" "55942add-f819-4b37-97aa-c37268932898"
+			"5e3eba24-e18f-403d-9ec8-12acd0907d7d" "6b12e926-0be2-4972-b684-2abad52b34c1"
+			"91880dac-5e1e-43b6-a488-ddfad41c7558" "c9d17369-b672-47ad-a144-c3714392b3fd"
+			"cc2dcdf4-84bb-4ea7-bb84-a18fc4de5504" "e18698eb-b012-425e-b403-f0d12b4b23ab"
+			"e5c1e459-f604-4e32-b4a4-70c523303e37" "e91515ab-0d01-4024-aad1-453a1a253c28"
 		)
 	)
 )

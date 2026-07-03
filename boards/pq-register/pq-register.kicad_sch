@@ -15552,6 +15552,50 @@
 			)
 		)
 	)
+	(group ""
+		(uuid "8ab70213-efe9-4082-9773-5895eac1bd63")
+		(lib_id "Project:nor")
+		(members "42d083b2-6620-49b4-9538-79b166fe935b" "48528367-d2e7-44a7-bc4a-72f7fcc8578e"
+			"79f5f5d1-dc11-47ac-a7fb-02cd3902d52f" "9aeb7502-e8a6-4085-9942-11c499e606e6"
+			"d2bcef0a-675e-4bbe-a479-ad5b87f55745" "d3423006-9dd8-46b0-97fa-726bde51498d"
+			"eda4eb1e-5498-472b-ad48-dab45ecac28b" "ee2e61a6-7370-4f1d-93b9-24064a518ef6"
+			"eea3afc0-4e78-4469-b389-770e1c660dc0" "f40bb5e1-9fcd-4a22-9ca3-c136e4fd30ee"
+			"f700d24b-2379-441a-97b5-bccc91968f9f" "fce78a0b-1a40-4317-9603-059b53e14ceb"
+		)
+	)
+	(group ""
+		(uuid "a1e47c5b-8cc2-49db-961a-8f17c8cb2034")
+		(lib_id "Project:nor")
+		(members "200728f1-c2ff-4bbe-861d-e1e6c8371cd0" "31bee1e0-64c4-4c81-b0fc-147c17e9d595"
+			"352fb84e-a6de-476e-b355-0ade7dc7be2d" "680d389e-09aa-49cf-8d64-6edeedb4f3e1"
+			"a295dc39-ade2-4002-a7f4-7b720d771d3b" "a3677998-c2ca-4284-992d-15fe1d506200"
+			"aeec6e1f-9fc7-4a38-89d8-53999a996c10" "b8474dda-b4e0-4aef-a3b0-25a6b7cecec4"
+			"c8155905-d4fa-4239-ab81-d9ee729efe92" "cbbf235e-95c9-458a-b7be-8f28262199b0"
+			"eee2faf2-055c-4a7c-aa2c-f7e1622975d3"
+		)
+	)
+	(group ""
+		(uuid "ba52cf7b-b76c-4f9f-91f2-6d6170f0d64c")
+		(lib_id "Project:nor")
+		(members "00a1e295-01bb-454a-9019-8b21fc64247b" "078c0ff3-b1de-4854-b69c-396bf929afab"
+			"0acbe24d-e4fd-451a-965a-41d667ae0dad" "1e21c1ea-764d-41d9-9ad1-6a9b12f25fee"
+			"220dedc9-16c4-4181-a889-07849be58b8f" "4bd27511-5260-4440-bcb4-c0a5c2b09f61"
+			"503e2a8f-ca19-4a8b-8779-39ec85e0d376" "661e7fed-7deb-483a-957b-ddca8fad1c38"
+			"69d15438-845a-489b-8fc2-865e458e1cc2" "8c942c00-dc20-49bc-ae65-85553742a528"
+			"90962b1b-736d-4811-9980-a7d65cbd5450" "a83f1703-44a2-45e8-9cd3-0ceaeef40e3a"
+		)
+	)
+	(group ""
+		(uuid "fedcd64c-ca2a-42db-8809-d4c6975cfe5b")
+		(lib_id "Project:nor")
+		(members "022cd043-5989-48d0-be25-5c96c357e1e7" "0c9a0b9d-0d3d-42ca-a781-e31efbffeb39"
+			"0e6b9d7f-7904-44bc-98db-244ee1fe27e1" "2e74ec62-3eee-41e1-a69d-169370af4999"
+			"4623b41e-ae47-4843-8688-afb265c46abc" "5aab19dc-c460-4224-924a-7b71203641e1"
+			"666158ae-2265-48d3-87a7-03b0661d6e02" "8ccefa8c-32e5-4a7d-bb88-b6c0b484b643"
+			"aae7cae8-83c9-4465-9217-574848301c68" "bed380c8-4d1a-4586-a363-a57f688f6438"
+			"c79bd81e-8648-4530-8b91-53adebc4aa25" "cf4498e9-39bb-4dab-907f-2d0ef11cf2c2"
+		)
+	)
 	(sheet
 		(at 209.55 21.59)
 		(size 12.7 7.62)
