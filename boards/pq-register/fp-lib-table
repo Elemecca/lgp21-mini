@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Project") (type "KiCad") (uri "/home/maia/code/lgp21-mini/boards/project.pretty") (options "") (descr ""))
+	(lib (name "Project") (type "KiCad") (uri "${KIPRJMOD}/../project.pretty") (options "") (descr ""))
 )

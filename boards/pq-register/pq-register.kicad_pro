@@ -581,7 +581,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/../sch_frame.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/../sheet_pcb.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
