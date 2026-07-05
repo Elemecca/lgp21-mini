@@ -12700,7 +12700,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k ½W"
+		(property "Value" "800R 2W"
 			(at 180.594 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12711,7 +12711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 178.054 65.024 90)
 			(hide yes)
 			(show_name no)
@@ -13044,7 +13044,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k ½W"
+		(property "Value" "800R 2W"
 			(at 180.594 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13055,7 +13055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
 			(at 178.054 106.934 90)
 			(hide yes)
 			(show_name no)
@@ -15550,17 +15550,6 @@
 					(unit 1)
 				)
 			)
-		)
-	)
-	(group ""
-		(uuid "8ab70213-efe9-4082-9773-5895eac1bd63")
-		(lib_id "Project:nor")
-		(members "42d083b2-6620-49b4-9538-79b166fe935b" "48528367-d2e7-44a7-bc4a-72f7fcc8578e"
-			"79f5f5d1-dc11-47ac-a7fb-02cd3902d52f" "9aeb7502-e8a6-4085-9942-11c499e606e6"
-			"d2bcef0a-675e-4bbe-a479-ad5b87f55745" "d3423006-9dd8-46b0-97fa-726bde51498d"
-			"eda4eb1e-5498-472b-ad48-dab45ecac28b" "ee2e61a6-7370-4f1d-93b9-24064a518ef6"
-			"eea3afc0-4e78-4469-b389-770e1c660dc0" "f40bb5e1-9fcd-4a22-9ca3-c136e4fd30ee"
-			"f700d24b-2379-441a-97b5-bccc91968f9f" "fce78a0b-1a40-4317-9603-059b53e14ceb"
 		)
 	)
 	(group ""
