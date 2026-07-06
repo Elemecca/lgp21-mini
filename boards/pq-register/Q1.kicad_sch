@@ -9247,9 +9247,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7308c937-62b8-4050-8fc8-e53450ac6f36")
-		(property "Reference" "R506"
+		(property "Reference" "R902"
 			(at 142.24 147.574 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9312,7 +9312,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/f5a3ee66-2980-4c4b-9db6-5c1c30d0ba91"
-					(reference "R506")
+					(reference "R902")
 					(unit 1)
 				)
 			)
@@ -13508,9 +13508,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c01a347d-8aba-4a9c-93dd-6a36675404b5")
-		(property "Reference" "R447"
+		(property "Reference" "R901"
 			(at 90.17 183.134 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13573,7 +13573,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/f5a3ee66-2980-4c4b-9db6-5c1c30d0ba91"
-					(reference "R447")
+					(reference "R901")
 					(unit 1)
 				)
 			)

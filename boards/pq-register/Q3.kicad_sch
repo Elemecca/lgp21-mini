@@ -1491,10 +1491,6 @@
 		(color 0 0 0 0)
 		(uuid "ff5b62ac-4dac-4502-a68a-d5594ac01efc")
 	)
-	(no_connect
-		(at 33.02 115.57)
-		(uuid "e016ed9f-e29e-4c68-a336-83f7afdb8559")
-	)
 	(wire
 		(pts
 			(xy 167.64 127) (xy 167.64 124.46)
@@ -2724,6 +2720,29 @@
 		(uuid "0da99df1-824b-45dd-84dd-09ee59a77dea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.64 101.7936 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "B1"
+		(shape input)
+		(at 33.02 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "124afa82-9745-4ff1-9a7b-d2bd6a3c49d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.5553 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7916,9 +7935,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c330dd92-bfa8-448e-a416-be7951c6158b")
-		(property "Reference" "R511"
+		(property "Reference" "R905"
 			(at 36.83 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7981,7 +8000,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/f1bfd5ae-8a8b-41b5-a3d1-70c5dff4adf1"
-					(reference "R511")
+					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -9328,6 +9347,19 @@
 			"baa452c7-e9e4-4791-be46-87983daadfe8" "d1aa11b9-9196-43b8-8764-b7ebed9d0c54"
 			"dc17c715-69bd-439e-821b-e11eeafdd8bf" "e49d1c57-ee62-4586-adaa-9fd8519696a7"
 			"ebfbff3b-7b99-48de-b054-7e2b6292635f" "fedde99e-3a2d-4880-80ca-7d6f97d10466"
+		)
+	)
+	(group ""
+		(uuid "a4641357-1b17-4b08-8a3d-0083184a4af1")
+		(lib_id "Project:emitter-follower")
+		(members "1c2f65ec-bd52-4802-9d12-0c55807f1893" "29c78692-4cf8-4ed1-b3da-35a81dfd88b1"
+			"2b814adf-5036-466c-9e1d-53c2fd4f132a" "4ca50ffc-425b-4cff-9f89-0e66fef23dba"
+			"573b71fa-b508-4e68-b3f7-4c7eadc2a910" "6022987c-3010-41c4-a58d-13afa00b75f8"
+			"6b943d04-fd8f-40dc-a871-057e5a463f8b" "6d92eac0-67d6-4156-a4f2-5769c16a6f9a"
+			"7af3b50b-a788-4f84-bef8-71831ecb5b6a" "849244a5-e7a4-4b7e-9585-d1d1ebfb1b42"
+			"89977826-6dad-4e67-9ed1-5c7cd6d16374" "8ca0d968-3556-47bf-89b2-3c7fba821f5a"
+			"e038cc43-45da-4725-b628-e01793e83dbb" "e31192bb-dc70-42be-bae2-c27a337a47d5"
+			"e92237c1-927e-437e-b534-37bf132dad79" "eb00264a-098f-4e65-bec8-02a59b7474b0"
 		)
 	)
 	(group ""

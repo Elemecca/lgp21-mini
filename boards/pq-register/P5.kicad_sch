@@ -6129,9 +6129,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "50c821ce-2ab2-41bd-8c06-52678a1382cc")
-		(property "Reference" "R256"
+		(property "Reference" "R900"
 			(at 44.45 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6194,7 +6194,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/57c22bd7-5c59-41f0-a879-47621ba4147d"
-					(reference "R256")
+					(reference "R900")
 					(unit 1)
 				)
 			)

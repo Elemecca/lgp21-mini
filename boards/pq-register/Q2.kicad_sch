@@ -1144,17 +1144,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Used 41 & up when IO Key,\nData I/O, or A&D Converter\nboards are used. Works in\nnormal not in 1op mode."
-		(exclude_from_sim no)
-		(at 116.078 30.226 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "42231472-2ccb-421e-ae5f-57375d28c989")
-	)
 	(text "Q2"
 		(exclude_from_sim no)
 		(at 200.66 36.83 0)
@@ -1873,16 +1862,6 @@
 		)
 		(uuid "167e59b8-f1c6-4db2-987e-df8692977e9b")
 	)
-	(polyline
-		(pts
-			(xy 118.11 44.45) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191466d2-fe6d-47cf-93a8-db49ba446343")
-	)
 	(wire
 		(pts
 			(xy 133.35 177.8) (xy 133.35 175.26)
@@ -2593,16 +2572,6 @@
 		)
 		(uuid "796c48be-3d62-4c80-a017-54347d612c20")
 	)
-	(polyline
-		(pts
-			(xy 111.76 27.94) (xy 115.57 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "797e5f9b-3040-4682-9212-0e4ffa63d65e")
-	)
 	(wire
 		(pts
 			(xy 133.35 187.96) (xy 133.35 182.88)
@@ -2672,16 +2641,6 @@
 			(type default)
 		)
 		(uuid "7ecb89a3-c149-4825-88a5-91fd7efa12b8")
-	)
-	(polyline
-		(pts
-			(xy 118.11 44.45) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "810ed1d4-bca4-4150-9a7d-1dc83804f4e5")
 	)
 	(wire
 		(pts
@@ -3023,16 +2982,6 @@
 		)
 		(uuid "aa73e2a9-421c-4c85-ade3-3e6e00335638")
 	)
-	(polyline
-		(pts
-			(xy 111.76 39.37) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae076ef-1408-4161-ad44-b978799aa6a1")
-	)
 	(wire
 		(pts
 			(xy 88.9 139.7) (xy 88.9 140.97)
@@ -3212,16 +3161,6 @@
 			(type default)
 		)
 		(uuid "ba90e94d-d89f-4bb9-b040-87c312400d5a")
-	)
-	(polyline
-		(pts
-			(xy 111.76 27.94) (xy 111.76 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa93b17-7afa-4b97-8cf0-5ea20525a062")
 	)
 	(wire
 		(pts
@@ -3592,16 +3531,6 @@
 			(type default)
 		)
 		(uuid "edeaf612-a668-4303-9522-07edf9d8142a")
-	)
-	(polyline
-		(pts
-			(xy 116.84 45.72) (xy 118.11 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee32dec0-252b-4478-99b8-22a0fc25a375")
 	)
 	(wire
 		(pts
@@ -8486,9 +8415,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "66021da4-1f3f-4ae0-beea-bb6edddce4a5")
-		(property "Reference" "R507"
+		(property "Reference" "R903"
 			(at 74.93 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8551,7 +8480,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R507")
+					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -12656,9 +12585,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c1fb6ee7-854a-46c4-9039-2bc3d000aa6e")
-		(property "Reference" "R510"
+		(property "Reference" "R907"
 			(at 229.87 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +12650,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R510")
+					(reference "R907")
 					(unit 1)
 				)
 			)
@@ -14302,9 +14231,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "e406ac7e-e96f-4619-a4c9-61603242bc82")
-		(property "Reference" "R508"
+		(property "Reference" "R904"
 			(at 128.27 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,7 +14296,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R508")
+					(reference "R904")
 					(unit 1)
 				)
 			)
@@ -14966,9 +14895,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f27da269-9436-4ac1-a06d-a53701fd3bd7")
-		(property "Reference" "R509"
+		(property "Reference" "R906"
 			(at 128.27 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15031,7 +14960,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R509")
+					(reference "R906")
 					(unit 1)
 				)
 			)
