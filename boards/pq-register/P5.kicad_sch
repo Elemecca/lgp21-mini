@@ -3227,7 +3227,7 @@
 			)
 		)
 	)
-	(global_label "β5"
+	(global_label "~{β5}"
 		(shape output)
 		(at 88.9 43.18 0)
 		(fields_autoplaced yes)

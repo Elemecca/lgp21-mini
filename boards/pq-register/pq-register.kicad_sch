@@ -8665,7 +8665,7 @@
 			)
 		)
 	)
-	(global_label "Q2a"
+	(global_label "~{Q2a}"
 		(shape output)
 		(at 68.58 83.82 0)
 		(fields_autoplaced yes)
