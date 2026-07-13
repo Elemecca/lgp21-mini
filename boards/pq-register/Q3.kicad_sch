@@ -7937,7 +7937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c330dd92-bfa8-448e-a416-be7951c6158b")
-		(property "Reference" "R905"
+		(property "Reference" "R901"
 			(at 36.83 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8000,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/f1bfd5ae-8a8b-41b5-a3d1-70c5dff4adf1"
-					(reference "R905")
+					(reference "R901")
 					(unit 1)
 				)
 			)

@@ -8417,7 +8417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66021da4-1f3f-4ae0-beea-bb6edddce4a5")
-		(property "Reference" "R903"
+		(property "Reference" "R905"
 			(at 74.93 49.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8480,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R903")
+					(reference "R905")
 					(unit 1)
 				)
 			)
@@ -14233,7 +14233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e406ac7e-e96f-4619-a4c9-61603242bc82")
-		(property "Reference" "R904"
+		(property "Reference" "R906"
 			(at 128.27 45.974 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14296,7 +14296,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R904")
+					(reference "R906")
 					(unit 1)
 				)
 			)
@@ -14897,7 +14897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f27da269-9436-4ac1-a06d-a53701fd3bd7")
-		(property "Reference" "R906"
+		(property "Reference" "R902"
 			(at 128.27 155.194 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14960,7 +14960,7 @@
 		(instances
 			(project "pq-register"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/8256428c-4bd9-4db2-955d-d6beccbf8ae1"
-					(reference "R906")
+					(reference "R902")
 					(unit 1)
 				)
 			)
