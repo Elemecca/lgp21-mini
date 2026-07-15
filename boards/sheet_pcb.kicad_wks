@@ -105,9 +105,9 @@
 		(start 77.089 11.0022)
 		(end 2.002 11.0072)
 	)
-	(tbtext "${TITLE}"
+	(tbtext "LGP-21 Mini - ${TITLE}"
 		(name "text8:Text")
-		(pos 76.5 9.2002)
+		(pos 76.5 9.2)
 		(font
 			(size 1.75 1.75) bold)
 		(maxlen 48)
