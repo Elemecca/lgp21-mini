@@ -746,7 +746,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 10.16 15.24 180)
 				(length 3.81)
 				(name ""
@@ -2060,7 +2060,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -10.16 48.26 0)
 				(length 3.81)
 				(name ""
@@ -2168,7 +2168,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at -10.16 63.5 0)
 				(length 3.81)
 				(name ""
