@@ -13445,7 +13445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59e47251-3cca-48c6-9e97-c9d1ebf5aec3")
-		(property "Reference" "CR18"
+		(property "Reference" "CR91"
 			(at 244.602 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13531,7 +13531,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4"
-					(reference "CR18")
+					(reference "CR91")
 					(unit 1)
 				)
 			)
@@ -14837,7 +14837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k ⅛W"
 			(at 146.304 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +14848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 145.796 38.354 90)
 			(hide yes)
 			(show_name no)
@@ -16526,7 +16526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cd1bd01-4f26-4ea1-a992-b86564f3ad20")
-		(property "Reference" "CR17"
+		(property "Reference" "CR90"
 			(at 244.348 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16612,7 +16612,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4"
-					(reference "CR17")
+					(reference "CR90")
 					(unit 1)
 				)
 			)
@@ -17492,7 +17492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adbd43cc-45de-4c34-a04a-412d7b25af9d")
-		(property "Reference" "CR19"
+		(property "Reference" "CR92"
 			(at 244.348 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17578,7 +17578,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4"
-					(reference "CR19")
+					(reference "CR92")
 					(unit 1)
 				)
 			)

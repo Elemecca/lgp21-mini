@@ -7893,7 +7893,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 42.926 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7904,7 +7904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 45.466 174.244 90)
 			(hide yes)
 			(show_name no)
@@ -11489,7 +11489,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 108.966 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +11500,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 111.506 162.814 90)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12309,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 42.926 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12320,7 +12320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 45.466 103.124 90)
 			(hide yes)
 			(show_name no)
@@ -13587,7 +13587,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 42.926 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13598,7 +13598,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 45.466 138.684 90)
 			(hide yes)
 			(show_name no)
@@ -15387,6 +15387,38 @@
 		)
 	)
 	(group ""
+		(uuid "27705983-61d0-44e4-883b-98249e097a36")
+		(lib_id "Project:diode-inverter")
+		(members "01f360dc-ba4e-4049-9b0b-02a7b9afcbe8" "072a7d1e-a4d1-4308-a71e-87815f161cf5"
+			"1e88c5a8-b341-4f1e-b66c-0d7a003340c3" "1fc0c715-a14d-4eb4-9d45-af74f0af8713"
+			"3bed2185-b355-44ba-b540-e4214fd4f84b" "50c14484-ee40-4529-8956-ebf4dd049461"
+			"56fdca34-f6f0-4d13-b66e-b1be1728425f" "58585bb8-22a2-4637-9df0-362901b6393a"
+			"85875f40-f29f-413e-a63d-6744dc9bc86f" "aa4c9b32-7fbb-4fa2-8d14-4f520f67f3d0"
+			"b41f7aac-90ed-4a27-952c-791113838e51" "b6e47ec5-0c14-4836-9dab-e82525c43b73"
+			"c63be420-9d84-4748-bc1c-cf5c98f00fc3" "caf8df60-bd2e-434a-927d-925003d1e1f4"
+			"d315bab3-3719-4e6e-9495-1691f3315dbc" "dcb8a8f8-bba3-4c72-b367-194d95a6dc5c"
+			"e1c4fb7b-efd6-4584-8822-fca365d6401e" "e58d7bb1-cf58-466e-a0d2-80e592183cfd"
+			"eb547d64-e951-490e-bb80-ef8144cc788c" "ef3560a8-8d6f-4955-8bd5-636b8914bb46"
+			"f1555b58-943f-41e5-9d8d-6e3770990e04" "f3f2d595-c11b-4b51-8076-a3a2547b37c9"
+		)
+	)
+	(group ""
+		(uuid "2f5e0811-fdc3-4c71-888b-6d3ffd7e81b8")
+		(lib_id "Project:diode-inverter")
+		(members "1afefa84-abfa-4a72-8037-8e6d6959f71d" "1c1b8f7a-77ed-4444-bfab-db6dc886b719"
+			"27054c48-e02b-494f-8803-e55387b17c05" "2b02ad59-a5d4-4bb7-b6e8-83ec673bdb81"
+			"3bee5f82-471f-4254-a36b-c1e538454284" "5322cea6-e569-4f0f-bd81-d370fe5d4193"
+			"660c51ca-ab2a-458f-8bd9-8a39bc10b444" "6661089d-aa6c-457a-ad6b-5888a9e0f12e"
+			"9a873ae7-ba80-4ae9-b2f6-aa276c0d5729" "9ba71626-2268-44cb-8758-0b15447c6185"
+			"9cb1d475-b913-413c-9235-c43d5fbfacc9" "9f8ba2f1-89e2-4904-a127-7d8caf1009a9"
+			"a3f8b135-9cf0-46c5-a322-021ae3a81d7c" "a400573e-ea4a-445a-81f7-0c9289705cf4"
+			"aceef39c-c967-429d-97c4-17736a905f96" "b1764d35-49ab-40ed-89d3-e69a976e6291"
+			"b4331367-eb32-411f-982a-c64692bd6ac1" "d64c18ad-e1a2-4edb-92b9-31156913e3f3"
+			"d97fc056-fa23-43ea-911e-80109eeac4a6" "e7458d6a-13a4-4f1a-b0fc-1b10ba64cb3b"
+			"fb1e0e66-3dac-4603-9048-4c42c2baf30c" "ff9d0c9b-2663-4fac-a8d1-202c3a8b48da"
+		)
+	)
+	(group ""
 		(uuid "3d7327a2-4663-4c7b-a587-d35a93280216")
 		(lib_id "Project:nor")
 		(members "0903a588-a30c-4339-9119-47827ac7477e" "30410903-5231-4960-984e-07b4bf447637"
@@ -15406,6 +15438,42 @@
 			"b267c2a4-fd5b-4972-99e0-0f74b8290a4d" "b2c521d1-8ca0-49c5-aada-653e18fa87a3"
 			"bfd6b223-9186-49c5-8658-43c9b5491128" "c63bd56f-90be-471a-a05a-250c53cf737f"
 			"d5589ab6-2736-49dd-9771-0e712b399086" "d63b631e-eb47-4017-928f-0ceeb00f3860"
+		)
+	)
+	(group ""
+		(uuid "97398fe6-1057-4e82-8876-93ed1db150b7")
+		(lib_id "Project:diode-inverter")
+		(members "0409f5df-0099-4f53-ba30-dd56db9d2ed0" "1411a8a3-02ab-43cf-94d5-ef7c6cfd0029"
+			"173c843d-8d9e-42d0-a62f-b461903a24bf" "22eebe91-46bc-4109-bc89-5705802876e3"
+			"28891baa-3584-4ae5-9296-f9b912a0f15c" "2fe45354-a773-4ac5-9eed-3e7a1dd21143"
+			"3029571e-6b3c-4934-b3ee-6377a0349014" "37c02852-652f-4be6-aee7-1b5a73914f42"
+			"38a5d9c1-4ea8-48a7-be61-ceb41759fda6" "4c128124-855f-4cac-83df-cd45a36796b7"
+			"4eb00091-904f-41a3-acb6-8429e751411b" "60d8a2c9-4fb9-46da-84ed-1edc86be2be0"
+			"6b6d89ea-7ec7-4ba3-be89-fc4d44fb604d" "6e6c7903-548b-454e-bf2e-4a5fa01d95d9"
+			"7fa6110f-88cd-4902-9b6c-826dc9159b3d" "9185a35f-6cc8-4030-81e7-519125f44b6a"
+			"a65b9b1b-c9be-4ab6-a6a3-64d96b20217e" "b3dbc77e-0d2f-4abd-afd1-b4ff79c2377e"
+			"cb907b58-347c-4c65-96b1-0e9fd1071222" "d36babdc-7995-4038-8429-7fbe4c172084"
+			"e365dd5f-3f60-4878-b66d-f9f89169604b" "e69c8d2d-dc1e-48f3-aa85-4636d542de5f"
+			"e9b944d1-138a-4c23-b19c-832ace11d383" "eb963899-7d58-4e79-a391-9d944321ccf2"
+			"f0d3fa0b-ed0e-4241-ba38-15a53a779699" "f9d3ad17-ee8b-440d-8acd-851f88d64cb1"
+			"fba95538-abe0-4b0b-ad22-a67464046135" "fd6976e0-e729-485d-b515-877cbd825829"
+		)
+	)
+	(group ""
+		(uuid "9ba3f9a7-804f-481e-af32-afd95c9da961")
+		(lib_id "Project:diode-inverter")
+		(members "01537d72-1640-43f7-8120-8571cd2a9eb3" "09dd96b8-20f7-4f59-9438-adf7cec718ac"
+			"11280b2f-d2a6-4d5c-9aa8-6e29710f0cc6" "189caabc-af28-4a90-813f-98ce51e91eb8"
+			"1c3408c7-7915-4537-b271-2cdd35e97280" "2a8229b2-5d63-4258-ae5e-c477e24c1930"
+			"343cdddc-9112-4989-bd0c-3de76d3f30bd" "3a0390cb-5451-4605-a8ab-372561389bca"
+			"3e368fa9-aa30-455a-9315-3fe6f3953d59" "43311cf2-afa7-4ebf-9c9d-0145025a8c9e"
+			"45619970-5f5f-4c46-8c70-6fb8507ab1b2" "51f7b15b-a80a-4535-8656-4597d78b3115"
+			"7add3fbf-4269-4a8e-ad53-9f314919ba0d" "7bd90986-c181-41f9-875c-b21a590211bd"
+			"8754b9f3-57c2-4468-9656-09736ffa5c84" "9d78ab79-18ba-4266-b9fa-8167b123bb3c"
+			"a0dd0af4-d1ee-429d-8d40-77ad14184e09" "bb7cdf8f-1344-48a1-a2c8-dd04a48f0ace"
+			"d241ef03-1982-4cf0-b8a5-97469385640d" "e66a88c9-aa32-429a-a118-2429a4e83704"
+			"f0e0f035-10b4-4ead-819e-a5e0b843ee43" "f2a7d234-e284-4c26-934b-55daa61aca43"
+			"f6bf2076-6135-4e9e-878a-a79e420495a4"
 		)
 	)
 	(group ""
@@ -15450,6 +15518,22 @@
 			"60d5db30-09fc-42df-9d0b-dc1af529153b" "6e339d33-7d6a-4564-b421-32fe8624a700"
 			"71b7c5e4-ef0b-4fbd-b04d-d400b103f5ac" "7ca6af06-d877-4ba6-b935-d6e983132a60"
 			"ba6f0e80-84e3-4054-bdbc-fde69ae800dc" "cabc630b-7976-4c1c-803d-47bce3aac7ae"
+		)
+	)
+	(group ""
+		(uuid "ddb6ad31-075f-4781-9aed-b65b6e4aa037")
+		(lib_id "Project:diode-inverter")
+		(members "07fb2501-d3f0-4885-9777-d23260787f8f" "1400718a-7dc4-4380-8477-faa7b59d5011"
+			"43f61399-9527-431b-887e-35456cbf4d88" "4950f8b6-7f91-4754-96d0-f3c588a70a84"
+			"4f7a7d23-96eb-47ef-9d53-e12379a0850f" "59814a40-29a3-437e-ab73-417db9ed2455"
+			"5ce50ae4-f46f-4768-a097-2e95b4ef9b10" "6b34bf12-61d2-4e03-ba67-22747325c940"
+			"81c032be-e4ad-4340-ac31-eaaf925cd481" "8981b317-6d88-477a-9115-dccb03846a91"
+			"8c5c65d9-f4b2-47da-b9c0-cbdb92c9ecf8" "9816adc5-abb6-4b3b-bb1c-43455b691795"
+			"9b4a7c2d-c27a-4a26-8400-a0970ee89997" "aa9c10f7-b3c4-41e8-a6b9-a7bf1ebf23bb"
+			"bf5e6c34-c4db-4cbf-b402-b47a931a431f" "c45f22f4-70e5-4a41-aaf2-2f408f430025"
+			"cc09ae03-7ea3-4346-a793-2e61a55e5f0a" "d008f73b-a4cf-4b0d-bff9-8bb4e863a7a8"
+			"e2b40d01-d1db-4e60-b5a7-6ddee9a4b659" "e4c85b60-8355-4122-9469-e27be7823da7"
+			"e76d9c0d-23c0-44f2-bf82-8c002e61b7d3" "f42ddf47-6e6e-4274-97bf-d3f41bf542d2"
 		)
 	)
 )

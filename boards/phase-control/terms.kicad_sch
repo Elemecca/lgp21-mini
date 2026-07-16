@@ -1175,12 +1175,6 @@
 		(uuid "21916fc2-bbd2-42c8-9970-6c3747b93d87")
 	)
 	(junction
-		(at 171.45 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "246be28a-01d7-42e6-9578-6b91a03cbc39")
-	)
-	(junction
 		(at 156.21 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1503,6 +1497,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43d5687-ad99-4f2c-8414-f27c7b52a7ad")
+	)
+	(junction
+		(at 171.45 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c632dbb5-c090-42b7-8f7e-f76612ea8d66")
 	)
 	(junction
 		(at 133.35 111.76)
@@ -2118,6 +2118,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 185.42) (xy 176.53 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287aa6fa-209f-4ad3-9dca-ec8fae106531")
+	)
+	(wire
+		(pts
 			(xy 196.85 157.48) (xy 199.39 157.48)
 		)
 		(stroke
@@ -2458,16 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 185.42) (xy 171.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a42cfd4-805c-4c6f-8326-e4c456a0da27")
-	)
-	(wire
-		(pts
 			(xy 101.6 118.11) (xy 101.6 119.38)
 		)
 		(stroke
@@ -2568,6 +2568,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 185.42) (xy 166.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6841f064-9453-45d6-86f8-7e53316b1e3a")
+	)
+	(wire
+		(pts
 			(xy 100.33 30.48) (xy 165.1 30.48)
 		)
 		(stroke
@@ -2588,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 185.42) (xy 171.45 185.42)
+			(xy 166.37 185.42) (xy 171.45 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2895,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "823b3415-adb7-43a3-ae04-cb6e93eabcdf")
+	)
+	(wire
+		(pts
+			(xy 171.45 185.42) (xy 171.45 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829710a2-aa17-46a6-afe4-337a2feee3a9")
 	)
 	(wire
 		(pts
@@ -3758,16 +3778,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 185.42) (xy 166.37 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52e9351-bc4f-49c7-a50f-641fea8187ae")
-	)
-	(wire
-		(pts
 			(xy 102.87 77.47) (xy 104.14 77.47)
 		)
 		(stroke
@@ -3865,16 +3875,6 @@
 			(type default)
 		)
 		(uuid "f619de10-ec1e-4bde-9f7a-a08af6c2059d")
-	)
-	(wire
-		(pts
-			(xy 171.45 187.96) (xy 171.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f660b28c-bcf1-4c05-93e2-67484bd3d118")
 	)
 	(wire
 		(pts
@@ -5189,7 +5189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a14c76e-b7b5-4b22-a6b1-ac38f3a98d6e")
-		(property "Reference" "R?"
+		(property "Reference" "R900"
 			(at 164.846 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5253,7 +5253,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/d8e0bdbb-d4a7-44ba-8f1b-a0e3a02bb0c0"
-					(reference "R?")
+					(reference "R900")
 					(unit 1)
 				)
 			)
@@ -6813,7 +6813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26785c2a-6eb0-497e-83be-b7fa5dc9f8da")
-		(property "Reference" "C?"
+		(property "Reference" "C900"
 			(at 173.228 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6877,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/d8e0bdbb-d4a7-44ba-8f1b-a0e3a02bb0c0"
-					(reference "C?")
+					(reference "C900")
 					(unit 1)
 				)
 			)
@@ -11223,7 +11223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 183.896 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11234,7 +11234,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 186.436 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -15211,7 +15211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d8c1e7-11e6-4eca-84b2-529fce36db63")
-		(property "Reference" "CR?"
+		(property "Reference" "CR93"
 			(at 180.34 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15296,7 @@
 		(instances
 			(project "phase-control"
 				(path "/d5da316c-1ec9-4d99-8330-1c4a3f6c3ba4/d8e0bdbb-d4a7-44ba-8f1b-a0e3a02bb0c0"
-					(reference "CR?")
+					(reference "CR93")
 					(unit 1)
 				)
 			)
@@ -17748,7 +17748,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k ½W"
 			(at 183.896 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17759,7 +17759,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 186.436 147.574 90)
 			(hide yes)
 			(show_name no)
@@ -17888,6 +17888,22 @@
 		)
 	)
 	(group ""
+		(uuid "23795e18-6335-4b97-94dc-bbebacf93c63")
+		(lib_id "Project:diode-inverter")
+		(members "0015785b-a96f-4629-bef5-14c4434ecc91" "001c58b1-5fad-4d05-9b5f-dfc400fed6bd"
+			"003cf61b-7fb0-4ccb-a1d1-e24ee09c34aa" "0d0cd723-e577-4989-8097-fd3607c05180"
+			"1cbbe984-6b4c-4725-889d-b4f6cb2f0631" "3837bbb7-d374-4a2a-9f2b-d9829e4f4417"
+			"5ebb3683-7a79-4834-bb01-30339c4f9f6a" "62ffe6df-854f-455a-8602-ecffd9d05146"
+			"6d2a2d7e-cb09-4530-8708-7e9d81e50db7" "82af8f89-ca36-474f-8b34-caa4324fef47"
+			"91c380ec-998b-43fd-b16e-077190f7eb0f" "991a20f2-3291-4596-8654-1209998c9cf2"
+			"9ce114b7-c480-41d6-b3f7-51ea0967ccf6" "a58becb9-0522-4d57-9ef4-065acd160d51"
+			"acc062ea-12bc-4af4-bf68-d959dbc2c6eb" "aea8e449-dac7-4747-a141-cdc66f638668"
+			"b0ff2f28-5417-4c5c-a0bf-5b3e8dbea5f7" "bae85d6a-3c01-4db5-ad18-0fbd03fc1c34"
+			"c1fb7815-dcad-42f1-a229-731183fe986c" "cf804a68-f03f-450d-9730-1b907b35a5ee"
+			"e208e9bb-ae7a-4fb3-a96a-a8925ab44a2e" "ff46b247-5bb3-48a4-bfab-e9de3dcfced4"
+		)
+	)
+	(group ""
 		(uuid "422a92fc-0a38-4fad-bf30-16cfec9aeb2b")
 		(lib_id "Project:nor")
 		(members "0021ec18-a54d-41ec-ba31-7dca9c6eb146" "164e9b57-a37e-418d-8d84-000b6c8b5566"
@@ -17918,6 +17934,23 @@
 			"b2ff989a-ee8d-410c-bf66-ffd5da765aa4" "c43d5687-ad99-4f2c-8414-f27c7b52a7ad"
 			"e7c7bdd9-7885-4ed6-92a8-1188531b02b0" "e97edc4c-0f5f-4f39-bebf-cef8017daaf7"
 			"ec33238a-1235-4c31-af44-c71cfe85ca47" "fc84b1f3-2d42-47f6-b937-0f1f4f855c8b"
+		)
+	)
+	(group ""
+		(uuid "71a61847-8bcb-400b-83e0-587594a2b51a")
+		(lib_id "Project:diode-inverter")
+		(members "01f5fa6c-9c7d-4a3c-8fd3-ee86d4faff37" "0402ba7e-63cb-4daa-8591-8e5c01a2d09f"
+			"0ba439b4-1b66-4cf0-813d-9f0f7b8b0e14" "0f8c5b0e-333f-4de5-8c99-7a37dcfcbf46"
+			"186dfb79-fb08-491c-971c-d81574c15170" "18ef2b66-51dd-415a-b0f4-575b8609fc2d"
+			"21916fc2-bbd2-42c8-9970-6c3747b93d87" "25355833-b0f8-4cef-9f08-a86bc465d14f"
+			"3875c930-a091-4822-b044-b09cf938d15c" "3d726489-a481-4590-9cb3-820198fbc4e6"
+			"3eb3937c-c043-43d1-a550-0fc3f0f07ccc" "458c2dbe-68ea-42e9-a8be-cb3c315bc79d"
+			"6e595713-1b9d-44be-b378-4863c4fa0cdb" "70750090-a3d2-42e8-b295-6f96d16bed95"
+			"7206b996-4368-450a-94bb-1459afe284bf" "86f45b42-26d6-4dd9-86a0-d574fc3b6d72"
+			"87ca36ed-7903-46cb-a3c8-20f9dc8d6bf3" "91f881f9-870c-48c9-8684-37b800228570"
+			"a57609e0-9e89-4993-a75e-bf6ff19d5f73" "b37d5b70-5eb0-463f-a706-dec52a53abd6"
+			"c1c6df6a-1ed8-4515-bc1a-dcffa03f488b" "c3bc85e0-dc50-4040-a5f1-c83b441e8938"
+			"cd86d2da-8e9e-4b56-ae05-9ea02cded8df" "ce888a0e-0383-4c3f-944e-654202cbfb2b"
 		)
 	)
 	(group ""
@@ -18018,6 +18051,22 @@
 			"5bf7a148-da2f-4cc4-b7c3-09f079a70220" "b808cd30-11ca-4ce9-9dea-74477ed776ba"
 			"bf6a8845-0da2-4cdf-8eb6-f78037bde931" "c260fdf6-aa71-41dd-b1d1-9030b60e6b12"
 			"c6147631-5595-4dcb-8d13-bf4e6374bd12" "cd280694-64ed-4520-91f0-524727ad9ef0"
+		)
+	)
+	(group ""
+		(uuid "ff730193-3091-40ba-b089-3a9cca3090e7")
+		(lib_id "Project:diode-inverter")
+		(members "1105647f-f572-4295-9bd0-9f476ea3ec47" "211d76ff-0d76-4039-aa7d-7c9b1d5ea664"
+			"2899eca2-bfbe-466c-9714-812bd2222891" "3d916724-9f70-42a7-9075-9114018b8b2d"
+			"3ff3a0c6-e8e6-4941-9ac5-db65400cfb0f" "48201187-eed7-4dd7-b717-cb91cf827791"
+			"49690052-3de2-4b20-b9d6-b80e9678c838" "572a56fa-1131-464e-97be-b6a688e8f669"
+			"721f7409-730a-47ba-b8cf-343a5627d982" "7488cd99-13ca-4d06-8c17-d2bda5402347"
+			"7d772f4b-c0e6-4076-944c-d523f6c2b415" "816c10b8-90b9-4921-9846-71f87061369a"
+			"89e40c5c-8af1-4845-94ee-4a915422ab6c" "9275c77c-bdef-4335-8d3e-ee9a4a8836fb"
+			"c6a6ddf9-752f-4add-9cc6-e7e65313c494" "ce39b239-33ed-4516-a320-0539fcbfb773"
+			"e72b459e-22d2-433a-a339-737be7eada27" "e8320575-5dfb-429c-b876-4393b9a24f70"
+			"ef7a4fc0-adda-4dfd-9ad3-0178d904a067" "f9c312b4-9ffc-4454-af31-3f840d2e7c1d"
+			"fdebbbb4-fed5-4289-8fab-588b2b26da8d"
 		)
 	)
 )
