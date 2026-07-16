@@ -2804,7 +2804,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_PNP_EBC"
+		(symbol "Transistor_BJT:Q_PNP_BEC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2825,7 +2825,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PNP_EBC"
+			(property "Value" "Q_PNP_BEC"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2858,7 +2858,7 @@
 					)
 				)
 			)
-			(property "Description" "PNP transistor, emitter/base/collector"
+			(property "Description" "PNP transistor, base/emitter/collector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2880,7 +2880,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2902,7 +2902,7 @@
 					)
 				)
 			)
-			(symbol "Q_PNP_EBC_0_1"
+			(symbol "Q_PNP_BEC_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2975,11 +2975,11 @@
 					)
 				)
 			)
-			(symbol "Q_PNP_EBC_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "Q_PNP_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2994,10 +2994,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10027,7 +10027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 110.49 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -10082,7 +10082,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 110.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10104,7 +10104,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 110.49 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10696,7 +10696,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 218.44 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -10751,7 +10751,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 218.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10773,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 218.44 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11249,7 +11249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 204.47 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -11304,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 204.47 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11326,7 +11326,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 204.47 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -12667,7 +12667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 134.62 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -12722,7 +12722,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12744,7 +12744,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 134.62 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12774,7 +12774,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 184.15 135.89 0)
 		(unit 1)
 		(body_style 1)
@@ -12829,7 +12829,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12851,7 +12851,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 184.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -13640,7 +13640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 189.23 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -13695,7 +13695,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 189.23 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +13717,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 189.23 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15057,7 +15057,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 226.06 132.08 0)
 		(unit 1)
 		(body_style 1)
@@ -15112,7 +15112,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -15134,7 +15134,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -17585,7 +17585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 134.62 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -17640,7 +17640,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17662,7 +17662,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 134.62 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -18732,7 +18732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 240.03 35.56 0)
 		(unit 1)
 		(body_style 1)
@@ -18787,7 +18787,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -18809,7 +18809,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 240.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -19020,7 +19020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 134.62 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -19075,7 +19075,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 134.62 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -19097,7 +19097,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 134.62 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -19285,7 +19285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 132.08 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -19340,7 +19340,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 132.08 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19362,7 +19362,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 132.08 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19814,7 +19814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 223.52 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -19869,7 +19869,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 223.52 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -19891,7 +19891,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 223.52 41.91 0)
 			(hide yes)
 			(show_name no)

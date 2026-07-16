@@ -545,7 +545,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_PNP_EBC"
+		(symbol "Transistor_BJT:Q_PNP_BEC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -566,7 +566,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PNP_EBC"
+			(property "Value" "Q_PNP_BEC"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -599,7 +599,7 @@
 					)
 				)
 			)
-			(property "Description" "PNP transistor, emitter/base/collector"
+			(property "Description" "PNP transistor, base/emitter/collector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -621,7 +621,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=B 3=C"
+			(property "Sim.Pins" "1=B 2=E 3=C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -643,7 +643,7 @@
 					)
 				)
 			)
-			(symbol "Q_PNP_EBC_0_1"
+			(symbol "Q_PNP_BEC_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -716,11 +716,11 @@
 					)
 				)
 			)
-			(symbol "Q_PNP_EBC_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "Q_PNP_BEC_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -735,10 +735,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "B"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10125,7 +10125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 180.34 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -10180,7 +10180,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 180.34 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10202,7 +10202,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 180.34 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12270,7 +12270,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 238.76 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -12325,7 +12325,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12347,7 +12347,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13773,7 +13773,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 238.76 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -13828,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 238.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13850,7 +13850,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 238.76 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13880,7 +13880,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 53.34 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -13935,7 +13935,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13957,7 +13957,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14785,7 +14785,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 161.29 54.61 0)
 		(mirror y)
 		(unit 1)
@@ -14841,7 +14841,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 161.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14863,7 +14863,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 161.29 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17071,7 +17071,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 238.76 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -17126,7 +17126,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 238.76 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17148,7 +17148,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 238.76 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17282,7 +17282,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 207.01 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -17337,7 +17337,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 207.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17359,7 +17359,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 207.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17389,7 +17389,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 53.34 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -17444,7 +17444,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17466,7 +17466,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17895,7 +17895,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 53.34 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -17950,7 +17950,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -17972,7 +17972,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 53.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -19197,7 +19197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 180.34 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -19252,7 +19252,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 180.34 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19274,7 +19274,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 180.34 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -19382,7 +19382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 135.89 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -19437,7 +19437,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -19459,7 +19459,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20050,7 +20050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 116.84 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -20105,7 +20105,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -20127,7 +20127,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 116.84 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -20315,7 +20315,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 116.84 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -20370,7 +20370,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -20392,7 +20392,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 116.84 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -20422,7 +20422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 180.34 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -20477,7 +20477,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20499,7 +20499,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20529,7 +20529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_PNP_EBC")
+		(lib_id "Transistor_BJT:Q_PNP_BEC")
 		(at 53.34 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -20584,7 +20584,7 @@
 				)
 			)
 		)
-		(property "Description" "Germanium PNP Transistor"
+		(property "Description" "PNP BJT"
 			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -20606,7 +20606,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=E 2=B 3=C"
+		(property "Sim.Pins" "1=B 2=E 3=C"
 			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -21733,27 +21733,26 @@
 			"19e5192e-ca52-44e3-b1a3-6e2638c64c0d" "1f62b316-ab4e-49e2-8019-b48c960616d3"
 			"201315d9-0c4a-4b5d-aaf8-a64f48f81597" "25a1d4c5-435f-427e-9a18-669169b64384"
 			"2bbcd01b-41e2-4fec-9ac4-256a58883156" "2c474328-e688-4daf-86b5-eccb654ed3ff"
-			"303191c9-896f-4229-a9f2-9898222e4f05" "380b751a-9709-41f7-a965-c97738731820"
-			"3a3cbf4c-41c0-4cf7-abfb-fe6790f1a0e2" "4ab5176f-3c0a-442b-9c91-e712eab4f9d5"
-			"575190ec-dd69-49bf-aeda-9965da5dde9b" "58e7f43d-9884-49ac-b71c-dfa3254176ab"
-			"5ae792fc-60ff-4895-beae-93c684ae89ab" "5bdc52cf-de97-4cfd-a000-336028979491"
-			"619b54a8-a1ac-4ab0-adad-2c8b1a0b7a8a" "62424de4-f5ed-48c3-b720-23802bf51cb0"
-			"62b69d7c-0d14-4a66-a6d7-218265729aef" "641a6762-5815-49e5-bce8-e4ad8aefa749"
-			"65b20e10-a6fe-4096-94bf-6c5a163e9b81" "6755bf6a-7e56-4896-be1f-2d2d0a8244cc"
-			"68f1b546-3a87-4897-9ee3-96d3faf5d6e3" "6e5500ba-b89d-4007-93bf-b4b469bb5abe"
-			"6f2fc8c7-a29d-4f72-8013-03f67e395064" "75a39b37-c77f-4d0e-a59c-261b7b545347"
-			"7e4fb2d0-4acd-4af6-bf99-a0d4890c28c6" "8217d20b-dae9-4e16-bf7b-15d751cfd1a7"
-			"85bfd106-1ca1-41c7-871b-25a04966d8f9" "85de43fb-0da9-49c0-9117-40137aa7a2bd"
-			"88bc5302-c981-4992-916d-510b2bb74577" "8dec0c9d-26eb-4274-9e43-c95d86e036f7"
-			"8e00735d-51bf-441d-b0f2-00b4d8f8ab17" "8f073495-a1d4-433d-a680-003f3751ea53"
-			"917101e5-f73d-4bb3-9035-cb123a9d99f0" "9387c127-9ee5-4c1d-9a55-02c4ed7500a6"
-			"a148e80e-f0bd-4d58-ad97-4885cbb16e92" "a53fa4e3-5e44-4b41-83bc-60257b4a72b4"
-			"a8a7bd4c-4078-4214-b83a-bdacb85ab65f" "aca422e2-4932-4482-9648-ac424ff0cccd"
-			"add4ebc8-a739-45aa-97e7-8d64e20c273f" "b059d0c5-87ed-4543-9bea-133927449165"
-			"b0c9674d-ddd5-4260-844c-bc81b4292e26" "b5ab4d50-a971-457a-b24f-b77dae1b5235"
-			"bd215ef0-fb09-45bb-b182-59b4ddff73fd" "be48a009-e01a-409d-848f-870d51faad8e"
-			"bf1961a9-28a8-4bc2-84e2-fc534fa2cc27" "bfe62c9c-816c-41d4-8c4e-7bd1e6d8eaae"
-			"c77282e7-b7e3-43e1-8d5b-e2a6478faebc" "d0f8438f-3233-4165-bcd4-b2ba5a89213c"
+			"303191c9-896f-4229-a9f2-9898222e4f05" "3a3cbf4c-41c0-4cf7-abfb-fe6790f1a0e2"
+			"4ab5176f-3c0a-442b-9c91-e712eab4f9d5" "575190ec-dd69-49bf-aeda-9965da5dde9b"
+			"58e7f43d-9884-49ac-b71c-dfa3254176ab" "5ae792fc-60ff-4895-beae-93c684ae89ab"
+			"5bdc52cf-de97-4cfd-a000-336028979491" "619b54a8-a1ac-4ab0-adad-2c8b1a0b7a8a"
+			"62424de4-f5ed-48c3-b720-23802bf51cb0" "62b69d7c-0d14-4a66-a6d7-218265729aef"
+			"641a6762-5815-49e5-bce8-e4ad8aefa749" "65b20e10-a6fe-4096-94bf-6c5a163e9b81"
+			"6755bf6a-7e56-4896-be1f-2d2d0a8244cc" "68f1b546-3a87-4897-9ee3-96d3faf5d6e3"
+			"6e5500ba-b89d-4007-93bf-b4b469bb5abe" "6f2fc8c7-a29d-4f72-8013-03f67e395064"
+			"75a39b37-c77f-4d0e-a59c-261b7b545347" "7e4fb2d0-4acd-4af6-bf99-a0d4890c28c6"
+			"8217d20b-dae9-4e16-bf7b-15d751cfd1a7" "85bfd106-1ca1-41c7-871b-25a04966d8f9"
+			"85de43fb-0da9-49c0-9117-40137aa7a2bd" "88bc5302-c981-4992-916d-510b2bb74577"
+			"8dec0c9d-26eb-4274-9e43-c95d86e036f7" "8e00735d-51bf-441d-b0f2-00b4d8f8ab17"
+			"8f073495-a1d4-433d-a680-003f3751ea53" "917101e5-f73d-4bb3-9035-cb123a9d99f0"
+			"9387c127-9ee5-4c1d-9a55-02c4ed7500a6" "a148e80e-f0bd-4d58-ad97-4885cbb16e92"
+			"a53fa4e3-5e44-4b41-83bc-60257b4a72b4" "a8a7bd4c-4078-4214-b83a-bdacb85ab65f"
+			"aca422e2-4932-4482-9648-ac424ff0cccd" "add4ebc8-a739-45aa-97e7-8d64e20c273f"
+			"b059d0c5-87ed-4543-9bea-133927449165" "b0c9674d-ddd5-4260-844c-bc81b4292e26"
+			"b5ab4d50-a971-457a-b24f-b77dae1b5235" "bd215ef0-fb09-45bb-b182-59b4ddff73fd"
+			"be48a009-e01a-409d-848f-870d51faad8e" "bf1961a9-28a8-4bc2-84e2-fc534fa2cc27"
+			"bfe62c9c-816c-41d4-8c4e-7bd1e6d8eaae" "d0f8438f-3233-4165-bcd4-b2ba5a89213c"
 			"d3489b2e-68ce-44a8-b583-29a524c5de48" "d7fe9955-b9fd-424f-94b9-7dc2f7b2b2b7"
 			"da9132e5-5474-4524-b030-c3a0713bfc83" "db5ed4bf-e455-40fe-86c3-85b7c6216fc3"
 			"dee04f98-34ac-4207-995e-6cae97708a63" "e58b3bb7-0a25-459d-9287-3e6b412b9acd"
