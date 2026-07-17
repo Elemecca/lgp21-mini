@@ -5083,6 +5083,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "33kΩ"
+			(at 234.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 234.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd8ba7c7-b588-4969-9ac2-bf2e78a5f6af")
 		)
@@ -5163,6 +5185,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c2d942b6-a641-49ef-ae08-762dc7fe9ccf")
 		)
@@ -5234,6 +5278,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 166.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 166.37 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 166.37 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -5326,6 +5392,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 219.71 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 219.71 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb4429d2-b35f-4872-bbd0-091a27fd0fa9")
 		)
@@ -5397,6 +5485,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 36.83 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5488,6 +5598,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.11 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "919fd1bd-a806-4604-af68-19dfb5563a6d")
 		)
@@ -5525,7 +5657,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5581,6 +5713,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5671,6 +5825,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "120pF"
+			(at 193.04 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 193.04 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "681b940f-319d-45c5-960d-b1afedda993b")
 		)
@@ -5742,6 +5918,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 50.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "56kΩ"
+			(at 50.8 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 50.8 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5832,6 +6030,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3873642a-3e73-4e69-9162-771c53f2e354")
 		)
@@ -5903,6 +6123,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 99.06 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 99.06 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,6 +6314,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 101.6 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f7a8aa8d-c7f0-46d3-85cd-dd5c49104b8a")
 		)
@@ -6176,6 +6440,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 217.17 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17d18db2-c5ff-4fc6-af64-12a348a7bd8f")
 		)
@@ -6260,6 +6546,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "33kΩ"
+			(at 199.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "89e38212-f175-4622-8f08-41e1bdd2b51b")
 		)
@@ -6297,7 +6605,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6353,6 +6661,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6445,6 +6775,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.88 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bda5df49-88ee-4a33-9539-da1f83871301")
 		)
@@ -6516,6 +6868,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 193.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "6.8kΩ"
+			(at 193.04 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 193.04 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6605,6 +6979,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 233.68 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.68 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7729b1f7-a799-4891-adde-5a8018c39c28")
 		)
@@ -6642,7 +7038,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 240.03 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6698,6 +7094,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 240.03 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 240.03 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 240.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -6868,6 +7286,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "680pF"
+			(at 171.45 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 171.45 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47c035fd-1fe0-448b-82f5-c91338b495e1")
 		)
@@ -6939,6 +7379,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 41.91 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 41.91 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7042,6 +7504,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 58.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 58.42 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 58.42 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -7205,6 +7689,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 166.37 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7408,7 +7914,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7464,6 +7970,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7568,6 +8096,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 53.34 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 53.34 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 53.34 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7739,6 +8289,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 99.06 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50fa91eb-f54d-4a56-9b3e-73ee3dbe5d69")
 		)
@@ -7810,6 +8382,28 @@
 		)
 		(property "Description" "capacitor, small US symbol"
 			(at 228.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "120pF"
+			(at 228.6 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7891,6 +8485,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 100.33 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 100.33 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 100.33 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8061,6 +8677,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "800Ω 2W"
+			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 220.98 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d02d7794-77f8-4252-9293-b4b7c8bbf97f")
 		)
@@ -8155,6 +8793,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 208.28 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 208.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8262,6 +8922,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 217.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 217.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 217.17 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -8589,6 +9271,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0f80ba1-2cae-4d8b-9c7c-f0d0a1abd7fb")
 		)
@@ -8738,6 +9442,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9053,6 +9779,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 246.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "800Ω 2W"
+			(at 246.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 246.38 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9401,6 +10149,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 130.81 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8819faf-174a-4ca1-a1b2-f8f3fe39718f")
 		)
@@ -9475,6 +10245,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 81.28 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 81.28 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.28 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9633,6 +10425,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 45.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "56kΩ"
+			(at 45.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 45.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9825,6 +10639,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 99.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "434b984e-6ea1-4eaa-a98f-de896212d7ed")
 		)
@@ -9899,6 +10735,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 123.19 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "56kΩ"
+			(at 123.19 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -10013,6 +10871,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 97.79 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 97.79 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7452800c-e969-42fc-ac40-b7b505a25ffa")
 		)
@@ -10087,6 +10967,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 36.83 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 184.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10178,6 +11080,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 55.88 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 55.88 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1c0a6679-99a2-41fa-b764-6e4f8a572724")
 		)
@@ -10249,6 +11173,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 193.04 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "6.8kΩ"
+			(at 193.04 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 193.04 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,6 +11285,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 45.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 45.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65a971a6-dceb-43d6-9050-60259846db75")
 		)
@@ -10376,7 +11344,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -10432,6 +11400,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10536,6 +11526,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 53.34 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 53.34 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10785,6 +11797,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ef2dec1d-9e1d-43c4-929c-a28a0af84b02")
 		)
@@ -10856,6 +11890,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,6 +12001,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 99.06 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba76a3a0-162a-4859-bdf6-0d463ed29b3b")
 		)
@@ -11025,6 +12103,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 147.32 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 147.32 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd15c901-6c33-45d7-8268-28f1b9a920a0")
 		)
@@ -11096,6 +12196,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 147.32 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 147.32 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11186,6 +12308,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "33kΩ"
+			(at 199.39 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 199.39 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b66dfefc-d15a-4836-a7b6-90ad3230ff0d")
 		)
@@ -11257,6 +12401,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "10kΩ 500mW"
+			(at 185.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11449,6 +12615,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9498ec6-6244-4bf5-96f2-e23ccdd7cb02")
 		)
@@ -11523,6 +12711,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 228.6 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "6.8kΩ"
+			(at 228.6 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 228.6 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11626,6 +12836,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 53.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "MMBT5401"
+			(at 53.34 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
 			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11743,6 +12975,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 115.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 115.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b180bd9-6752-4b6d-ac0b-3b2bc8a8da5f")
 		)
@@ -11826,6 +13080,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 22.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83e03f9c-114c-4388-b448-6ccc1fbb8313")
 		)
@@ -11863,7 +13139,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11919,6 +13195,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -12010,6 +13308,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 45.72 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 45.72 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bedce7d-9e01-422e-87c8-c12950c31410")
 		)
@@ -12081,6 +13401,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 50.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "56kΩ"
+			(at 50.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 50.8 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -12171,6 +13513,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ad71555-e487-4a48-b240-0915180e6020")
 		)
@@ -12251,6 +13615,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a811bfff-7f0c-4c8e-aa2f-42475ab2f19f")
 		)
@@ -12288,7 +13674,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12344,6 +13730,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12469,7 +13877,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12525,6 +13933,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12607,6 +14037,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 133.35 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 133.35 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12775,6 +14227,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 115.57 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 115.57 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70eb2340-1a48-4379-8e78-e805cf063db5")
 		)
@@ -12847,6 +14321,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 60.96 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13039,6 +14535,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 208.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 208.28 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c94b0a6-8109-41b5-bfdd-6d5b0bf3819d")
 		)
@@ -13113,6 +14631,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 36.83 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 189.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13203,6 +14743,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 90.17 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 90.17 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d3cd4e83-b4c4-4290-8539-86aad5be7047")
 		)
@@ -13240,7 +14802,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13306,6 +14868,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d285abc2-37f3-4372-8aed-62485069ecd6")
 		)
@@ -13343,7 +14927,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13399,6 +14983,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13568,6 +15174,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "492f2231-cfb2-4047-af80-5a0eb90aaf7f")
 		)
@@ -13648,6 +15276,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 41.91 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1934a4c9-a4cc-4fa1-b98b-c7ea95deb586")
 		)
@@ -13719,6 +15369,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 82.55 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 82.55 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13964,6 +15636,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 82.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 82.55 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83f4c0c8-86e8-4664-881b-4cb809e16eba")
 		)
@@ -14036,6 +15730,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 55.88 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 55.88 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14594,6 +16310,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 41.91 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3fc0a018-381b-46b2-a5cf-f701b468054b")
 		)
@@ -14698,6 +16436,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 243.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 243.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81a3b8bf-0534-4a7e-af58-067e1f7cba02")
 		)
@@ -14781,6 +16541,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c76e5656-418e-436e-a5e3-60be79d5dd3a")
 		)
@@ -14852,6 +16634,28 @@
 		)
 		(property "Description" "capacitor, small US symbol"
 			(at 193.04 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "120pF"
+			(at 193.04 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 193.04 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14943,6 +16747,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6dafb9af-8eb1-4bf5-be1c-0f69a9b27047")
 		)
@@ -15023,6 +16849,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 41.91 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 41.91 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfa5fcce-2f08-4896-b4c1-dd56588d781b")
 		)
@@ -15094,6 +16942,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 233.68 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 233.68 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15184,6 +17054,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 107.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 107.95 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "86abe7cf-d428-4750-ae38-bdeb753e9207")
 		)
@@ -15221,7 +17113,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15277,6 +17169,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15367,6 +17281,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 99.06 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bafbd934-c977-4658-a997-0019fad27add")
 		)
@@ -15448,6 +17384,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 91.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 91.44 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d3cd5b7-44c3-4038-a6f1-84fe4ecb9f86")
 		)
@@ -15519,6 +17477,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 200.66 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15686,6 +17666,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 200.66 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 200.66 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "872c93d1-6ae2-492e-a94f-adffb45c719b")
 		)
@@ -15836,6 +17838,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 219.71 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "2kΩ 500mW"
+			(at 219.71 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 219.71 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16106,6 +18130,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 163.83 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 163.83 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f6948b79-a9a2-4da4-8f37-7eddbfcfeabb")
 		)
@@ -16180,6 +18226,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 81.28 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 81.28 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.28 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16505,6 +18573,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "300Ω 3W"
+			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed80d5a9-f93b-4af9-838d-68eba81134f5")
 		)
@@ -16698,7 +18788,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -16764,6 +18854,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 180.34 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2ceec92-c2c6-4d00-af37-a97b734bc1f4")
 		)
@@ -16801,7 +18913,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16857,6 +18969,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -17026,6 +19160,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "56kΩ"
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 156.21 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d9fddb39-2024-423d-bd01-8c3865501819")
 		)
@@ -17063,7 +19219,7 @@
 				)
 			)
 		)
-		(property "Value" "1N5819WS"
+		(property "Value" "1N4148WS"
 			(at 180.34 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -17119,6 +19275,28 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "1N4148WS"
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
 			(at 180.34 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -17365,6 +19543,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 82.55 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 82.55 121.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b47e1b9f-b19c-4937-8940-a8426f2d68ba")
 		)
@@ -17547,6 +19747,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "MMBT5401"
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8326"
+			(at 58.42 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed5e46db-5fc8-4f23-b6ef-718ea94e3708")
 		)
@@ -17621,6 +19843,28 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "56kΩ"
+			(at 209.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 209.55 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17711,6 +19955,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 154.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9625fb12-7003-4259-a067-e335f41ede0b")
 		)
@@ -17792,6 +20058,28 @@
 				)
 			)
 		)
+		(property "BOM Value" "10kΩ 500mW"
+			(at 185.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 185.42 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b95ca65b-45e1-457a-8788-20dfd08eec92")
 		)
@@ -17863,6 +20151,28 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 36.83 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BOM Value" "15kΩ"
+			(at 36.83 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 36.83 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

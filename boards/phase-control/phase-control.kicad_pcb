@@ -8912,6 +8912,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "999bf2ad-ba12-41c6-9e33-641d81bef08e")
 			(effects
 				(font
@@ -8969,18 +8970,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "7a0d3e02-0c00-47f7-8e59-31e4ecb91efb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a8402920-61c8-4a4b-95fc-884f5281a40b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -48815,6 +48804,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "73250f4b-1d99-40cf-8716-1be61c6c5c4a")
 			(effects
 				(font
@@ -48872,18 +48862,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "3be49910-adce-4239-bc2c-8276e616d7bd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "93d98f09-0c14-496b-8a96-f1107facf051")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -62717,6 +62695,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ce6bd182-c1e0-4e54-b415-093ccedf216e")
 			(effects
 				(font
@@ -62774,18 +62753,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "6fc06423-c41d-4a2c-9a4e-ee9398c9c7de")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "258e7dc0-e11e-4683-a415-97b2f969c520")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -97282,7 +97249,7 @@
 				)
 			)
 		)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -39.624 1.016)

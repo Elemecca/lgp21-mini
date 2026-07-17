@@ -159,6 +159,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "999bf2ad-ba12-41c6-9e33-641d81bef08e")
 			(effects
 				(font
@@ -217,18 +218,6 @@
 			(layer "F.CrtYd")
 			(uuid "7a0d3e02-0c00-47f7-8e59-31e4ecb91efb")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a8402920-61c8-4a4b-95fc-884f5281a40b")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1.152 1.152)
@@ -261,6 +250,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "73250f4b-1d99-40cf-8716-1be61c6c5c4a")
 			(effects
 				(font
@@ -319,18 +309,6 @@
 			(layer "F.CrtYd")
 			(uuid "3be49910-adce-4239-bc2c-8276e616d7bd")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "93d98f09-0c14-496b-8a96-f1107facf051")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 1.152 1.152)
@@ -363,6 +341,7 @@
 			(at 0 1.25 0)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ce6bd182-c1e0-4e54-b415-093ccedf216e")
 			(effects
 				(font
@@ -420,18 +399,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "6fc06423-c41d-4a2c-9a4e-ee9398c9c7de")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.25 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "258e7dc0-e11e-4683-a415-97b2f969c520")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -502,7 +469,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/bd35f32a-a75e-4c0d-a4cf-4264dcea9e1a")
 		(sheetname "/")
-		(sheetfile "pq-register.kicad_sch")
+		(sheetfile "card-template.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -519,7 +486,7 @@
 				)
 			)
 		)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -39.624 1.016)
@@ -951,7 +918,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P1}")
+			(net "unconnected-(P1-~{P1}-PadA3)")
 			(pinfunction "~{P1}_A3")
 			(pintype "passive")
 			(teardrops
@@ -993,7 +960,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "P1")
+			(net "unconnected-(P1-P1-PadA5)")
 			(pinfunction "P1_A5")
 			(pintype "passive")
 			(teardrops
@@ -1014,7 +981,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "G")
+			(net "unconnected-(P1-G-PadA6)")
 			(pinfunction "G_A6")
 			(pintype "passive")
 			(teardrops
@@ -1035,7 +1002,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{G}")
+			(net "unconnected-(P1-~{G}-PadA7)")
 			(pinfunction "~{G}_A7")
 			(pintype "passive")
 			(teardrops
@@ -1056,7 +1023,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "rl")
+			(net "unconnected-(P1-r1-PadA8)")
 			(pinfunction "r1_A8")
 			(pintype "passive")
 			(teardrops
@@ -1077,7 +1044,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P1c}")
+			(net "unconnected-(P1-~{P1c}-PadA9)")
 			(pinfunction "~{P1c}_A9")
 			(pintype "passive")
 			(teardrops
@@ -1098,7 +1065,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{rl}")
+			(net "unconnected-(P1-~{r1}-PadA10)")
 			(pinfunction "~{r1}_A10")
 			(pintype "passive")
 			(teardrops
@@ -1119,7 +1086,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P1d}")
+			(net "unconnected-(P1-~{P1d}-PadA11)")
 			(pinfunction "~{P1d}_A11")
 			(pintype "passive")
 			(teardrops
@@ -1140,7 +1107,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P2c}")
+			(net "unconnected-(P1-~{P2c}-PadA12)")
 			(pinfunction "~{P2c}_A12")
 			(pintype "passive")
 			(teardrops
@@ -1161,7 +1128,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P2d}")
+			(net "unconnected-(P1-~{P2d}-PadA13)")
 			(pinfunction "~{P2d}_A13")
 			(pintype "passive")
 			(teardrops
@@ -1182,7 +1149,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P3c}")
+			(net "unconnected-(P1-~{P3c}-PadA14)")
 			(pinfunction "~{P3c}_A14")
 			(pintype "passive")
 			(teardrops
@@ -1203,7 +1170,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P3d}")
+			(net "unconnected-(P1-~{P3d}-PadA15)")
 			(pinfunction "~{P3d}_A15")
 			(pintype "passive")
 			(teardrops
@@ -1224,7 +1191,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P4c}")
+			(net "unconnected-(P1-~{P4c}-PadA16)")
 			(pinfunction "~{P4c}_A16")
 			(pintype "passive")
 			(teardrops
@@ -1245,7 +1212,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P4d}")
+			(net "unconnected-(P1-~{P4d}-PadA17)")
 			(pinfunction "~{P4d}_A17")
 			(pintype "passive")
 			(teardrops
@@ -1268,7 +1235,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Ac2}-PadA18)")
 			(pinfunction "~{Ac2}_A18")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -1287,7 +1254,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "V")
+			(net "unconnected-(P1-V-PadA19)")
 			(pinfunction "V_A19")
 			(pintype "passive")
 			(teardrops
@@ -1308,7 +1275,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P5c}")
+			(net "unconnected-(P1-~{P5c}-PadA20)")
 			(pinfunction "~{P5c}_A20")
 			(pintype "passive")
 			(teardrops
@@ -1329,7 +1296,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "P5a")
+			(net "unconnected-(P1-P5a-PadA21)")
 			(pinfunction "P5a_A21")
 			(pintype "passive")
 			(teardrops
@@ -1350,7 +1317,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{V}")
+			(net "unconnected-(P1-~{V}-PadA22)")
 			(pinfunction "~{V}_A22")
 			(pintype "passive")
 			(teardrops
@@ -1371,7 +1338,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P5d}")
+			(net "unconnected-(P1-~{P5d}-PadA23)")
 			(pinfunction "~{P5d}_A23")
 			(pintype "passive")
 			(teardrops
@@ -1392,7 +1359,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P6c}")
+			(net "unconnected-(P1-~{P6c}-PadA24)")
 			(pinfunction "~{P6c}_A24")
 			(pintype "passive")
 			(teardrops
@@ -1413,7 +1380,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "P6a")
+			(net "unconnected-(P1-P6a-PadA25)")
 			(pinfunction "P6a_A25")
 			(pintype "passive")
 			(teardrops
@@ -1434,7 +1401,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P6d}")
+			(net "unconnected-(P1-~{P6d}-PadA26)")
 			(pinfunction "~{P6d}_A26")
 			(pintype "passive")
 			(teardrops
@@ -1455,7 +1422,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "S2")
+			(net "unconnected-(P1-S2-PadA27)")
 			(pinfunction "S2_A27")
 			(pintype "passive")
 			(teardrops
@@ -1476,7 +1443,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "ia")
+			(net "unconnected-(P1-ia-PadA28)")
 			(pinfunction "ia_A28")
 			(pintype "passive")
 			(teardrops
@@ -1497,7 +1464,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "T3")
+			(net "unconnected-(P1-T3-PadA29)")
 			(pinfunction "T3_A29")
 			(pintype "passive")
 			(teardrops
@@ -1518,7 +1485,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "S3")
+			(net "unconnected-(P1-S3-PadA30)")
 			(pinfunction "S3_A30")
 			(pintype "passive")
 			(teardrops
@@ -1539,7 +1506,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Tb2}")
+			(net "unconnected-(P1-~{Tb2}-PadA31)")
 			(pinfunction "~{Tb2}_A31")
 			(pintype "passive")
 			(teardrops
@@ -1560,7 +1527,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Tb1}")
+			(net "unconnected-(P1-~{Tb1}-PadA32)")
 			(pinfunction "~{Tb1}_A32")
 			(pintype "passive")
 			(teardrops
@@ -1581,7 +1548,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{ic}")
+			(net "unconnected-(P1-~{ic}-PadA33)")
 			(pinfunction "~{ic}_A33")
 			(pintype "passive")
 			(teardrops
@@ -1602,7 +1569,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Tb3}")
+			(net "unconnected-(P1-~{Tb3}-PadA34)")
 			(pinfunction "~{Tb3}_A34")
 			(pintype "passive")
 			(teardrops
@@ -1623,7 +1590,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Tb4}")
+			(net "unconnected-(P1-~{Tb4}-PadA35)")
 			(pinfunction "~{Tb4}_A35")
 			(pintype "passive")
 			(teardrops
@@ -1644,7 +1611,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "Tc")
+			(net "unconnected-(P1-Tc-PadA36)")
 			(pinfunction "Tc_A36")
 			(pintype "passive")
 			(teardrops
@@ -1685,7 +1652,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "Q1b")
+			(net "unconnected-(P1-Q1b-PadA38)")
 			(pinfunction "Q1b_A38")
 			(pintype "passive")
 			(teardrops
@@ -1706,7 +1673,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q1d}")
+			(net "unconnected-(P1-~{Q1d}-PadA39)")
 			(pinfunction "~{Q1d}_A39")
 			(pintype "passive")
 			(teardrops
@@ -1727,7 +1694,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q2a}")
+			(net "unconnected-(P1-Q2a-PadA40)")
 			(pinfunction "Q2a_A40")
 			(pintype "passive")
 			(teardrops
@@ -1748,7 +1715,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{O1}")
+			(net "unconnected-(P1-~{O1}-PadA41)")
 			(pinfunction "~{O1}_A41")
 			(pintype "passive")
 			(teardrops
@@ -1771,7 +1738,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{S3}-PadA42)")
 			(pinfunction "~{S3}_A42")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -1790,7 +1757,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q2c}")
+			(net "unconnected-(P1-~{Q2c}-PadA43)")
 			(pinfunction "~{Q2c}_A43")
 			(pintype "passive")
 			(teardrops
@@ -1811,7 +1778,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "O1")
+			(net "unconnected-(P1-O1-PadA44)")
 			(pinfunction "O1_A44")
 			(pintype "passive")
 			(teardrops
@@ -1832,7 +1799,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q2d}")
+			(net "unconnected-(P1-~{Q2d}-PadA45)")
 			(pinfunction "~{Q2d}_A45")
 			(pintype "passive")
 			(teardrops
@@ -1853,7 +1820,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{S1}")
+			(net "unconnected-(P1-~{S1}-PadA46)")
 			(pinfunction "~{S1}_A46")
 			(pintype "passive")
 			(teardrops
@@ -1874,7 +1841,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{H}")
+			(net "unconnected-(P1-~{H}-PadA47)")
 			(pinfunction "~{H}_A47")
 			(pintype "passive")
 			(teardrops
@@ -1895,7 +1862,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P2}")
+			(net "unconnected-(P1-~{P2}-PadA48)")
 			(pinfunction "~{P2}_A48")
 			(pintype "passive")
 			(teardrops
@@ -1916,7 +1883,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P3}")
+			(net "unconnected-(P1-~{P3}-PadA49)")
 			(pinfunction "~{P3}_A49")
 			(pintype "passive")
 			(teardrops
@@ -1937,7 +1904,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P4}")
+			(net "unconnected-(P1-~{P4}-PadA52)")
 			(pinfunction "~{P4}_A52")
 			(pintype "passive")
 			(teardrops
@@ -1958,7 +1925,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{bq}")
+			(net "unconnected-(P1-~{bq}-PadA53)")
 			(pinfunction "~{bq}_A53")
 			(pintype "passive")
 			(teardrops
@@ -1979,7 +1946,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{S2}")
+			(net "unconnected-(P1-~{S2}-PadA54)")
 			(pinfunction "~{S2}_A54")
 			(pintype "passive")
 			(teardrops
@@ -2000,7 +1967,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P5}")
+			(net "unconnected-(P1-~{P5}-PadA55)")
 			(pinfunction "~{P5}_A55")
 			(pintype "passive")
 			(teardrops
@@ -2023,7 +1990,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-W-PadA56)")
 			(pinfunction "W_A56")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2042,7 +2009,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "Q1")
+			(net "unconnected-(P1-Q1-PadA57)")
 			(pinfunction "Q1_A57")
 			(pintype "passive")
 			(teardrops
@@ -2063,7 +2030,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "Q3")
+			(net "unconnected-(P1-Q3-PadA58)")
 			(pinfunction "Q3_A58")
 			(pintype "passive")
 			(teardrops
@@ -2084,7 +2051,7 @@
 			(size 1.016 5.08)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q3}")
+			(net "unconnected-(P1-~{Q3}-PadA59)")
 			(pinfunction "~{Q3}_A59")
 			(pintype "passive")
 			(teardrops
@@ -2107,7 +2074,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{W}-PadA60)")
 			(pinfunction "~{W}_A60")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2168,7 +2135,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P1b")
+			(net "unconnected-(P1-P1b-PadB1)")
 			(pinfunction "P1b_B1")
 			(pintype "passive")
 			(teardrops
@@ -2189,7 +2156,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "H")
+			(net "unconnected-(P1-H-PadB2)")
 			(pinfunction "H_B2")
 			(pintype "passive")
 			(teardrops
@@ -2212,7 +2179,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Fa-PadB3)")
 			(pinfunction "Fa_B3")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2233,7 +2200,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Fc}-PadB4)")
 			(pinfunction "~{Fc}_B4")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2254,7 +2221,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Fb-PadB5)")
 			(pinfunction "Fb_B5")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2275,7 +2242,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Fd}-PadB6)")
 			(pinfunction "~{Fd}_B6")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2296,7 +2263,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Ga-PadB7)")
 			(pinfunction "Ga_B7")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2317,7 +2284,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{bs}-PadB8)")
 			(pinfunction "~{bs}_B8")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2338,7 +2305,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Gc}-PadB9)")
 			(pinfunction "~{Gc}_B9")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2359,7 +2326,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Gb-PadB10)")
 			(pinfunction "Gb_B10")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2380,7 +2347,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Gd}-PadB11)")
 			(pinfunction "~{Gd}_B11")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2401,7 +2368,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Aw'-PadB12)")
 			(pinfunction "Aw'_B12")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2420,7 +2387,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{A}")
+			(net "unconnected-(P1-~{A}-PadB13)")
 			(pinfunction "~{A}_B13")
 			(pintype "passive")
 			(teardrops
@@ -2441,7 +2408,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "A*")
+			(net "unconnected-(P1-A*-PadB14)")
 			(pinfunction "A*_B14")
 			(pintype "passive")
 			(teardrops
@@ -2462,7 +2429,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{A*}")
+			(net "unconnected-(P1-~{A*}-PadB15)")
 			(pinfunction "~{A*}_B15")
 			(pintype "passive")
 			(teardrops
@@ -2483,7 +2450,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "A")
+			(net "unconnected-(P1-A-PadB16)")
 			(pinfunction "A_B16")
 			(pintype "passive")
 			(teardrops
@@ -2506,7 +2473,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Aa-PadB17)")
 			(pinfunction "Aa_B17")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2527,7 +2494,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{T3}-PadB18)")
 			(pinfunction "~{T3}_B18")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2546,7 +2513,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P5")
+			(net "unconnected-(P1-P5-PadB19)")
 			(pinfunction "P5_B19")
 			(pintype "passive")
 			(teardrops
@@ -2569,7 +2536,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{brc}-PadB20)")
 			(pinfunction "~{brc}_B20")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2590,7 +2557,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-be-PadB21)")
 			(pinfunction "be_B21")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2611,7 +2578,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{be}-PadB22)")
 			(pinfunction "~{be}_B22")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2632,7 +2599,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-brc-PadB23)")
 			(pinfunction "brc_B23")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2653,7 +2620,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{Ac1}-PadB24)")
 			(pinfunction "~{Ac1}_B24")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2672,7 +2639,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "F")
+			(net "unconnected-(P1-F-PadB25)")
 			(pinfunction "F_B25")
 			(pintype "passive")
 			(teardrops
@@ -2693,7 +2660,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{F}")
+			(net "unconnected-(P1-~{F}-PadB26)")
 			(pinfunction "~{F}_B26")
 			(pintype "passive")
 			(teardrops
@@ -2714,7 +2681,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "CP")
+			(net "unconnected-(P1-CP-PadB27)")
 			(pinfunction "CP_B27")
 			(pintype "passive")
 			(teardrops
@@ -2735,7 +2702,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P6")
+			(net "unconnected-(P1-P6-PadB28)")
 			(pinfunction "P6_B28")
 			(pintype "passive")
 			(teardrops
@@ -2756,7 +2723,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P2")
+			(net "unconnected-(P1-P2-PadB29)")
 			(pinfunction "P2_B29")
 			(pintype "passive")
 			(teardrops
@@ -2777,7 +2744,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "bs")
+			(net "unconnected-(P1-bs-PadB30)")
 			(pinfunction "bs_B30")
 			(pintype "passive")
 			(teardrops
@@ -2798,7 +2765,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P4")
+			(net "unconnected-(P1-P4-PadB31)")
 			(pinfunction "P4_B31")
 			(pintype "passive")
 			(teardrops
@@ -2819,7 +2786,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "P3")
+			(net "unconnected-(P1-P3-PadB32)")
 			(pinfunction "P3_B32")
 			(pintype "passive")
 			(teardrops
@@ -2842,7 +2809,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-bq-PadB33)")
 			(pinfunction "bq_B33")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2861,7 +2828,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "K")
+			(net "unconnected-(P1-K-PadB34)")
 			(pinfunction "K_B34")
 			(pintype "passive")
 			(teardrops
@@ -2884,7 +2851,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{K}-PadB35)")
 			(pinfunction "~{K}_B35")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2905,7 +2872,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-K'-PadB36)")
 			(pinfunction "K'_B36")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2924,7 +2891,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{C}")
+			(net "unconnected-(P1-~{C}-PadB37)")
 			(pinfunction "~{C}_B37")
 			(pintype "passive")
 			(teardrops
@@ -2947,7 +2914,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-C-PadB38)")
 			(pinfunction "C_B38")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -2966,7 +2933,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "B1")
+			(net "unconnected-(P1-Bl-PadB39)")
 			(pinfunction "Bl_B39")
 			(pintype "passive")
 			(teardrops
@@ -2987,7 +2954,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Faf")
+			(net "unconnected-(P1-Faf-PadB40)")
 			(pinfunction "Faf_B40")
 			(pintype "passive")
 			(teardrops
@@ -3008,7 +2975,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{R}")
+			(net "unconnected-(P1-~{R}-PadB41)")
 			(pinfunction "~{R}_B41")
 			(pintype "passive")
 			(teardrops
@@ -3029,7 +2996,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "R")
+			(net "unconnected-(P1-R-PadB42)")
 			(pinfunction "R_B42")
 			(pintype "passive")
 			(teardrops
@@ -3050,7 +3017,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Q4")
+			(net "unconnected-(P1-Q4-PadB43)")
 			(pinfunction "Q4_B43")
 			(pintype "passive")
 			(teardrops
@@ -3071,7 +3038,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "Q2")
+			(net "unconnected-(P1-Q2-PadB44)")
 			(pinfunction "Q2_B44")
 			(pintype "passive")
 			(teardrops
@@ -3092,7 +3059,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{P6}")
+			(net "unconnected-(P1-~{P6}-PadB45)")
 			(pinfunction "~{P6}_B45")
 			(pintype "passive")
 			(teardrops
@@ -3113,7 +3080,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{H'}")
+			(net "unconnected-(P1-~{H'}-PadB46)")
 			(pinfunction "~{H'}_B46")
 			(pintype "passive")
 			(teardrops
@@ -3134,7 +3101,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "α9")
+			(net "unconnected-(P1-α9-PadB47)")
 			(pinfunction "α9_B47")
 			(pintype "passive")
 			(teardrops
@@ -3155,7 +3122,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Faf}")
+			(net "unconnected-(P1-~{Faf}-PadB48)")
 			(pinfunction "~{Faf}_B48")
 			(pintype "passive")
 			(teardrops
@@ -3176,7 +3143,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{To}")
+			(net "unconnected-(P1-~{To}-PadB49)")
 			(pinfunction "~{To}_B49")
 			(pintype "passive")
 			(teardrops
@@ -3219,7 +3186,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-S1-PadB53)")
 			(pinfunction "S1_B53")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3240,7 +3207,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Vw'-PadB54)")
 			(pinfunction "Vw'_B54")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3261,7 +3228,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Rw'-PadB55)")
 			(pinfunction "Rw'_B55")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3282,7 +3249,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Cw'-PadB56)")
 			(pinfunction "Cw'_B56")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3303,7 +3270,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-~{L}-PadB57)")
 			(pinfunction "~{L}_B57")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3344,7 +3311,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(P1-Kc-PadB59)")
 			(pinfunction "Kc_B59")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(teardrops
 				(best_length_ratio 0.5)
 				(max_length 0.508)
@@ -3363,7 +3330,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q2}")
+			(net "unconnected-(P1-~{Q2}-PadB60)")
 			(pinfunction "~{Q2}_B60")
 			(pintype "passive")
 			(teardrops
@@ -3384,7 +3351,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q1}")
+			(net "unconnected-(P1-~{Q1}-PadB61)")
 			(pinfunction "~{Q1}_B61")
 			(pintype "passive")
 			(teardrops
@@ -3405,7 +3372,7 @@
 			(size 1.016 5.08)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net "~{Q4}")
+			(net "unconnected-(P1-~{Q4}-PadB62)")
 			(pinfunction "~{Q4}_B62")
 			(pintype "passive")
 			(teardrops
