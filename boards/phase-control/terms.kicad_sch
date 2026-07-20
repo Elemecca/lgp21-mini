@@ -4134,7 +4134,7 @@
 			)
 		)
 	)
-	(global_label "~{rl}"
+	(global_label "~{r1}"
 		(shape output)
 		(at 140.97 111.76 0)
 		(fields_autoplaced yes)
@@ -4203,7 +4203,7 @@
 			)
 		)
 	)
-	(global_label "rl"
+	(global_label "r1"
 		(shape output)
 		(at 140.97 135.89 0)
 		(fields_autoplaced yes)

@@ -3557,6 +3557,26 @@
 		)
 		(uuid "8ceb5abe-7259-4ad1-9f31-704b6aedd9d3")
 	)
+	(label "~{F_{S}}"
+		(at 143.51 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4163a31-3831-46b9-97f3-779226dbb7be")
+	)
+	(label "F_{S}"
+		(at 223.52 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f0ef522f-f087-4c6e-ba85-df3493df2935")
+	)
 	(global_label "F"
 		(shape output)
 		(at 251.46 113.03 0)

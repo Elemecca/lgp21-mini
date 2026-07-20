@@ -2843,6 +2843,16 @@
 		)
 		(uuid "fed6f499-5f4a-41f4-9b84-05e7cc50d1de")
 	)
+	(label "H_{S}"
+		(at 212.09 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08d42598-a5b7-43ca-9855-e10a785a83fa")
+	)
 	(label "H'"
 		(at 129.54 77.47 0)
 		(effects
@@ -2852,6 +2862,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b38d219-7870-4db9-8feb-3e57b9d99367")
+	)
+	(label "~{H_{S}}"
+		(at 123.19 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc4281dd-92d9-4726-a90b-b45510bef3d0")
 	)
 	(global_label "T3"
 		(shape input)

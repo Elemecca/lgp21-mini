@@ -4967,6 +4967,26 @@
 		)
 		(uuid "ff98f4fa-2b43-429f-9648-bcb1c5fa8b3f")
 	)
+	(label "G_{S}"
+		(at 224.79 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b73523d-9b31-4949-8577-66b57b8d117f")
+	)
+	(label "~{G_{S}}"
+		(at 144.78 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7210af28-ef47-4c1a-a6ff-b047b7ad1e1c")
+	)
 	(label "G'"
 		(at 151.13 71.12 0)
 		(effects
