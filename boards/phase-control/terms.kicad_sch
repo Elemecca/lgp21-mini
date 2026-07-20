@@ -20247,23 +20247,6 @@
 		)
 	)
 	(group ""
-		(uuid "71a61847-8bcb-400b-83e0-587594a2b51a")
-		(lib_id "Project:diode-inverter")
-		(members "01f5fa6c-9c7d-4a3c-8fd3-ee86d4faff37" "0402ba7e-63cb-4daa-8591-8e5c01a2d09f"
-			"0ba439b4-1b66-4cf0-813d-9f0f7b8b0e14" "0f8c5b0e-333f-4de5-8c99-7a37dcfcbf46"
-			"186dfb79-fb08-491c-971c-d81574c15170" "18ef2b66-51dd-415a-b0f4-575b8609fc2d"
-			"21916fc2-bbd2-42c8-9970-6c3747b93d87" "25355833-b0f8-4cef-9f08-a86bc465d14f"
-			"3875c930-a091-4822-b044-b09cf938d15c" "3d726489-a481-4590-9cb3-820198fbc4e6"
-			"3eb3937c-c043-43d1-a550-0fc3f0f07ccc" "458c2dbe-68ea-42e9-a8be-cb3c315bc79d"
-			"6e595713-1b9d-44be-b378-4863c4fa0cdb" "70750090-a3d2-42e8-b295-6f96d16bed95"
-			"7206b996-4368-450a-94bb-1459afe284bf" "86f45b42-26d6-4dd9-86a0-d574fc3b6d72"
-			"87ca36ed-7903-46cb-a3c8-20f9dc8d6bf3" "91f881f9-870c-48c9-8684-37b800228570"
-			"a57609e0-9e89-4993-a75e-bf6ff19d5f73" "b37d5b70-5eb0-463f-a706-dec52a53abd6"
-			"c1c6df6a-1ed8-4515-bc1a-dcffa03f488b" "c3bc85e0-dc50-4040-a5f1-c83b441e8938"
-			"cd86d2da-8e9e-4b56-ae05-9ea02cded8df" "ce888a0e-0383-4c3f-944e-654202cbfb2b"
-		)
-	)
-	(group ""
 		(uuid "77a148fc-3a29-40bf-99ce-82013af676bf")
 		(lib_id "Project:nor")
 		(members "0d514b4d-1ab6-4588-be68-97976a6e7973" "18b71015-6191-4796-a85b-d019bae202d6"
